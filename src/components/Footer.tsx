@@ -78,14 +78,14 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <Phone size={16} className="mt-1 text-blue-400" />
                 <div>
-                  <p className="text-gray-300">+40 21 123 4567</p>
-                  <p className="text-gray-400 text-sm">Luni - Vineri: 09:00-18:00</p>
+                  <p className="text-gray-300">+40 725 693 521</p>
+                  <p className="text-gray-400 text-sm">Luni - Duminica: 24/24</p>
                 </div>
               </div>
               <div className="flex items-start space-x-2">
                 <Mail size={16} className="mt-1 text-blue-400" />
                 <div>
-                  <p className="text-gray-300">office@amcer.ro</p>
+                  <p className="text-gray-300">medierecomunitara2025@gmail.com</p>
                   <p className="text-gray-400 text-sm">Răspundem în 24h</p>
                 </div>
               </div>
@@ -93,7 +93,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © 2024 Asociația de Mediere Comunitară Europeană a Romilor. Toate drepturile rezervate.

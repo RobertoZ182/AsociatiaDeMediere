@@ -10,10 +10,15 @@ const Contact = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
     console.log('Form submitted:', formData);
+    const response = await fetch('http://localhost:3000/cerere', {
+      method: 'POST',
+      headers: {  'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+    console.log(response)
     alert('Mulțumim pentru mesaj! Vă vom contacta în curând.');
   };
 
@@ -47,9 +52,9 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Adresa</h4>
                     <p className="text-gray-600">
-                      Str. Justiției nr. 15<br />
+                      str. Iezerului nr. 8,<br />
                       Sector 1, București<br />
-                      România, 010234
+                      România
                     </p>
                   </div>
                 </div>
@@ -59,8 +64,8 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Telefon</h4>
                     <p className="text-gray-600">
-                      +40 21 123 4567<br />
-                      +40 721 123 456 (Urgențe)
+                      +40 725 693 521<br />
+                      +40 737 776 845 (Urgențe)
                     </p>
                   </div>
                 </div>
@@ -70,8 +75,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Email</h4>
                     <p className="text-gray-600">
-                      office@amcer.ro<br />
-                      mediere@amcer.ro
+                      medierecomunitara2025@gmail.com
                     </p>
                   </div>
                 </div>
@@ -81,9 +85,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900">Program</h4>
                     <p className="text-gray-600">
-                      Luni - Vineri: 09:00 - 18:00<br />
-                      Sâmbătă: 09:00 - 14:00<br />
-                      Duminică: Închis
+                      Luni - Duminica: 24/24
                     </p>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ const Hero = () => {
           
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             Asociația de Mediere Comunitară Europeană a Romilor oferă servicii profesionale 
-            de mediere pentru rezolvarea conflictelor și promovarea înțelegerii în comunitate.
+            de medirere comunitară extrajudiciara pentru rezolvarea conflictelor și promovarea înțelegerii în comunitate.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

@@ -4,36 +4,36 @@ import { Mail, Phone, Award } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Elena Popescu',
-      role: 'Mediator Principal',
-      experience: '15 ani experiență',
+      name: 'Florin Motoi',
+      role: 'Președinte',
+      experience: '30 ani experiență',
       specialization: 'Mediere familială și civilă',
       education: 'Master în Drept, Certificat în Mediere',
-      image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face'
+      image: '/WhatsApp Image 2025-09-15 at 15.00.25_e2a1c871.jpg'
     },
     {
-      name: 'Marius Ionescu',
-      role: 'Mediator Senior',
+      name: 'Florin David',
+      role: 'Vicepreședinte',
       experience: '12 ani experiență',
       specialization: 'Mediere comercială și comunitară',
       education: 'Licență în Psihologie, Certificat CNMR',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face'
+      image: '/WhatsApp Image 2025-09-15 at 18.20.58_5a61e249.jpg'
     },
     {
-      name: 'Ana Georgescu',
-      role: 'Consilier Juridic',
+      name: 'Cristian Buceanu',
+      role: 'Coordonator Echipa Tehnica',
       experience: '10 ani experiență',
       specialization: 'Drepturile omului și antidiscriminare',
       education: 'Master în Drepturile Omului',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b812b833?w=400&h=400&fit=crop&crop=face'
+      image: '/WhatsApp Image 2025-09-15 at 18.29.57_cc9775a0.jpg'
     },
     {
-      name: 'Radu Stanciu',
+      name: 'Roberto Zătreanu',
       role: 'Mediator Comunitar',
       experience: '8 ani experiență',
       specialization: 'Dialog intercultural și integrare',
       education: 'Licență în Sociologie, Certificat în Mediere',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face'
+      image: '/WhatsApp Image 2025-09-16 at 22.42.35_ca2df9ab.jpg'
     }
   ];
 
@@ -43,26 +43,24 @@ const Team = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Echipa Noastră</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Profesioniști dedicați cu experiență vastă în mediere și rezolvarea conflictelor, 
-            angajați să ofere servicii de cea mai înaltă calitate.
+            Profesioniști dedicați cu experiență vastă în mediere și rezolvarea conflictelor.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {teamMembers.map((member, index) => (
-            <div key={index} className="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300">
+            <div key={index} className="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-lg transition-shadow duration-300 flex flex-col items-center">
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
+                  className="w-24 h-24 rounded-full object-cover block mx-auto mb-4"
+
               />
               <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
               <p className="text-blue-600 font-semibold mb-2">{member.role}</p>
               <p className="text-sm text-gray-600 mb-3">{member.experience}</p>
-              <p className="text-sm text-gray-700 mb-3 font-medium">{member.specialization}</p>
-              <div className="border-t border-gray-200 pt-3">
-                <p className="text-xs text-gray-500">{member.education}</p>
-              </div>
+              
+
             </div>
           ))}
         </div>

@@ -47,7 +47,7 @@ const Services = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Serviciile Noastre</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oferim o gamă completă de servicii de mediere și consultanță, 
+            Oferim o gamă completă de servicii de mediere și consultanță,
             adaptate nevoilor specifice ale comunităților diverse.
           </p>
         </div>
@@ -79,29 +79,69 @@ const Services = () => {
               <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 font-bold text-lg">
                 1
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Solicitarea</h4>
-              <p className="text-sm text-gray-600">Contactarea mediatorului și programarea primei întâlniri</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Programe de prevenire a delincvenței juvenile</h4>
+              <p className="text-sm text-gray-600">
+                Ateliere în școli pentru tineri romi pe tema legii, drepturilor și responsabilităților.
+                Campanii „Tinerii și legea” în comunități vulnerabile.
+                Proiecte de mentorat între tineri romi și jandarmi/polițiști romi.
+              </p>
             </div>
             <div className="text-center">
               <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-green-600 font-bold text-lg">
                 2
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Evaluarea</h4>
-              <p className="text-sm text-gray-600">Analiza situației și identificarea problemelor principale</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Mediere comunitară în conflicte locale</h4>
+              <p className="text-sm text-gray-600">Formarea mediatorilor comunitari romi pentru intervenții extrajudiciare.
+                Mediere între cetățeni și autorități în zone tensionate.
+                Intervenții în cazuri de abuzuri sau discriminare instituțională.
+
+              </p>
             </div>
             <div className="text-center">
               <div className="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-yellow-600 font-bold text-lg">
                 3
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Medierea</h4>
-              <p className="text-sm text-gray-600">Facilitarea dialogului între părțile implicate</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Îmbunătățirea relației între romi și poliție
+              </h4>
+              <p className="text-sm text-gray-600">Proiecte de încredere reciprocă: „Poliția și comunitatea romă”.
+                Dialoguri directe între liderii romi și reprezentanții IPJ sau Jandarmerie.
+                Promovarea diversității în structurile MAI (încurajarea tinerilor romi să devină polițiști, pompieri etc.).
+              </p>
             </div>
             <div className="text-center">
               <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
                 4
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Acordul</h4>
-              <p className="text-sm text-gray-600">Formalizarea soluției găsite de comun acord</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Campanii de educație civică și legală
+              </h4>
+              <p className="text-sm text-gray-600">Drepturile cetățenilor vs. obligațiile față de stat.
+                Sesiuni de informare despre documente de identitate, reședință, cazier etc.
+                Combaterea violenței domestice, traficului de persoane și abuzurilor.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
+                5
+              </div>
+              <h4 className="font-semibold text-gray-900 mb-2">
+                Intervenții în situații de urgență
+              </h4>
+              <p className="text-sm text-gray-600">Colaborare în intervențiile ISU în comunități rome.
+                Pregătirea comunităților pentru dezastre (incendii, inundații).
+                Campanii de informare despre apelarea 112 și prim-ajutor.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
+                6
+              </div>
+              <h4 className="font-semibold text-gray-900 mb-2">
+                Participare la planuri locale de ordine publică
+              </h4>
+              <p className="text-sm text-gray-600">
+                Reprezentanți ai asociației pot fi consultați în consilii locale pe tema siguranței publice.
+                Monitorizarea intervențiilor MAI în zone sensibile.
+              </p>
             </div>
           </div>
         </div>

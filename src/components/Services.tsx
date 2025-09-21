@@ -1,69 +1,148 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { MessageCircle, Users2, Home, Briefcase, GraduationCap, Shield } from 'lucide-react';
 
 const Services = () => {
+  const sectionRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const elements = entry.target.querySelectorAll('.scroll-animate');
+            elements.forEach((el, index) => {
+              setTimeout(() => {
+                el.classList.add('animate');
+              }, index * 150);
+            });
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   const services = [
     {
-      icon: <MessageCircle size={32} />,
+      icon: <MessageCircle size={36} />,
       title: 'Mediere Civilă',
       description: 'Rezolvarea conflictelor civile prin dialog constructiv și soluții win-win.',
-      features: ['Conflicte de vecinătate', 'Dispute contractuale', 'Probleme de moștenire']
+      features: ['Conflicte de vecinătate', 'Dispute contractuale', 'Probleme de moștenire'],
+      gradient: 'from-blue-500 to-cyan-500',
+      bgGradient: 'from-blue-50 to-cyan-50'
     },
     {
-      icon: <Home size={32} />,
+      icon: <Home size={36} />,
       title: 'Mediere Familială',
       description: 'Suport specializat pentru familii în situații de conflict sau criză.',
-      features: ['Divorțuri amiabile', 'Custodia copiilor', 'Conflicte intergeneraționale']
+      features: ['Divorțuri amiabile', 'Custodia copiilor', 'Conflicte intergeneraționale'],
+      gradient: 'from-pink-500 to-rose-500',
+      bgGradient: 'from-pink-50 to-rose-50'
     },
     {
-      icon: <Briefcase size={32} />,
+      icon: <Briefcase size={36} />,
       title: 'Mediere Comercială',
       description: 'Soluții rapide și eficiente pentru disputele din mediul de afaceri.',
-      features: ['Conflicte între parteneri', 'Dispute cu furnizori', 'Litigii comerciale']
+      features: ['Conflicte între parteneri', 'Dispute cu furnizori', 'Litigii comerciale'],
+      gradient: 'from-green-500 to-emerald-500',
+      bgGradient: 'from-green-50 to-emerald-50'
     },
     {
-      icon: <Users2 size={32} />,
+      icon: <Users2 size={36} />,
       title: 'Mediere Comunitară',
       description: 'Facilitarea dialogului între grupuri diferite din comunitate.',
-      features: ['Dialog intercultural', 'Conflicte etnice', 'Integrare socială']
+      features: ['Dialog intercultural', 'Conflicte etnice', 'Integrare socială'],
+      gradient: 'from-purple-500 to-violet-500',
+      bgGradient: 'from-purple-50 to-violet-50'
     },
     {
-      icon: <GraduationCap size={32} />,
+      icon: <GraduationCap size={36} />,
       title: 'Mediere Școlară',
       description: 'Programe de mediere în instituțiile de învățământ.',
-      features: ['Conflicte între elevi', 'Probleme de bullying', 'Dialog părinți-școală']
+      features: ['Conflicte între elevi', 'Probleme de bullying', 'Dialog părinți-școală'],
+      gradient: 'from-orange-500 to-amber-500',
+      bgGradient: 'from-orange-50 to-amber-50'
     },
     {
-      icon: <Shield size={32} />,
+      icon: <Shield size={36} />,
       title: 'Consultanță Juridică',
       description: 'Informare și consiliere juridică gratuită pentru comunitatea romă.',
-      features: ['Drepturile omului', 'Legislație antidiscriminare', 'Asistență juridică']
+      features: ['Drepturile omului', 'Legislație antidiscriminare', 'Asistență juridică'],
+      gradient: 'from-indigo-500 to-blue-500',
+      bgGradient: 'from-indigo-50 to-blue-50'
+    }
+  ];
+
+  const processSteps = [
+    {
+      number: 1,
+      title: 'Programe de prevenire a delincvenței juvenile',
+      description: 'Ateliere în școli pentru tineri romi pe tema legii, drepturilor și responsabilităților. Campanii „Tinerii și legea" în comunități vulnerabile. Proiecte de mentorat între tineri romi și jandarmi/polițiști romi.',
+      color: 'from-blue-500 to-blue-600'
+    },
+    {
+      number: 2,
+      title: 'Mediere comunitară în conflicte locale',
+      description: 'Formarea mediatorilor comunitari romi pentru intervenții extrajudiciare. Mediere între cetățeni și autorități în zone tensionate. Intervenții în cazuri de abuzuri sau discriminare instituțională.',
+      color: 'from-green-500 to-green-600'
+    },
+    {
+      number: 3,
+      title: 'Îmbunătățirea relației între romi și poliție',
+      description: 'Proiecte de încredere reciprocă: „Poliția și comunitatea romă". Dialoguri directe între liderii romi și reprezentanții IPJ sau Jandarmerie. Promovarea diversității în structurile MAI.',
+      color: 'from-yellow-500 to-orange-500'
+    },
+    {
+      number: 4,
+      title: 'Campanii de educație civică și legală',
+      description: 'Drepturile cetățenilor vs. obligațiile față de stat. Sesiuni de informare despre documente de identitate, reședință, cazier etc. Combaterea violenței domestice, traficului de persoane și abuzurilor.',
+      color: 'from-purple-500 to-purple-600'
+    },
+    {
+      number: 5,
+      title: 'Intervenții în situații de urgență',
+      description: 'Colaborare în intervențiile ISU în comunități rome. Pregătirea comunităților pentru dezastre (incendii, inundații). Campanii de informare despre apelarea 112 și prim-ajutor.',
+      color: 'from-red-500 to-pink-500'
+    },
+    {
+      number: 6,
+      title: 'Participare la planuri locale de ordine publică',
+      description: 'Reprezentanți ai asociației pot fi consultați în consilii locale pe tema siguranței publice. Monitorizarea intervențiilor MAI în zone sensibile.',
+      color: 'from-indigo-500 to-purple-500'
     }
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section ref={sectionRef} id="services" className="py-20 bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Serviciile Noastre</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+        <div className="text-center mb-16 scroll-animate">
+          <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-6">
+            Serviciile Noastre
+          </h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
             Oferim o gamă completă de servicii de mediere și consultanță,
             adaptate nevoilor specifice ale comunităților diverse.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="text-blue-600 mb-4">
+            <div key={index} className={`scroll-animate interactive-card bg-gradient-to-br ${service.bgGradient} p-8 rounded-2xl shadow-lg hover:shadow-2xl border border-white/50 backdrop-blur-sm`}>
+              <div className={`bg-gradient-to-r ${service.gradient} text-white p-4 rounded-2xl mb-6 w-fit`}>
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">{service.title}</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
-              <ul className="space-y-2">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">{service.title}</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed text-lg">{service.description}</p>
+              <ul className="space-y-3">
                 {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="text-sm text-gray-500 flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                  <li key={featureIndex} className="text-gray-600 flex items-center text-lg">
+                    <span className={`w-3 h-3 bg-gradient-to-r ${service.gradient} rounded-full mr-4 flex-shrink-0`}></span>
                     {feature}
                   </li>
                 ))}
@@ -72,76 +151,21 @@ const Services = () => {
           ))}
         </div>
 
-        <div className="bg-white p-8 rounded-xl shadow-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Procesul de Mediere</h3>
-          <div className="grid md:grid-cols-4 gap-6">
-            <div className="text-center">
-              <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600 font-bold text-lg">
-                1
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Programe de prevenire a delincvenței juvenile</h4>
-              <p className="text-sm text-gray-600">
-                Ateliere în școli pentru tineri romi pe tema legii, drepturilor și responsabilităților.
-                Campanii „Tinerii și legea” în comunități vulnerabile.
-                Proiecte de mentorat între tineri romi și jandarmi/polițiști romi.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-green-600 font-bold text-lg">
-                2
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Mediere comunitară în conflicte locale</h4>
-              <p className="text-sm text-gray-600">Formarea mediatorilor comunitari romi pentru intervenții extrajudiciare.
-                Mediere între cetățeni și autorități în zone tensionate.
-                Intervenții în cazuri de abuzuri sau discriminare instituțională.
-
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-yellow-600 font-bold text-lg">
-                3
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Îmbunătățirea relației între romi și poliție
-              </h4>
-              <p className="text-sm text-gray-600">Proiecte de încredere reciprocă: „Poliția și comunitatea romă”.
-                Dialoguri directe între liderii romi și reprezentanții IPJ sau Jandarmerie.
-                Promovarea diversității în structurile MAI (încurajarea tinerilor romi să devină polițiști, pompieri etc.).
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
-                4
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">Campanii de educație civică și legală
-              </h4>
-              <p className="text-sm text-gray-600">Drepturile cetățenilor vs. obligațiile față de stat.
-                Sesiuni de informare despre documente de identitate, reședință, cazier etc.
-                Combaterea violenței domestice, traficului de persoane și abuzurilor.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
-                5
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Intervenții în situații de urgență
-              </h4>
-              <p className="text-sm text-gray-600">Colaborare în intervențiile ISU în comunități rome.
-                Pregătirea comunităților pentru dezastre (incendii, inundații).
-                Campanii de informare despre apelarea 112 și prim-ajutor.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mx-auto mb-4 text-purple-600 font-bold text-lg">
-                6
-              </div>
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Participare la planuri locale de ordine publică
-              </h4>
-              <p className="text-sm text-gray-600">
-                Reprezentanți ai asociației pot fi consultați în consilii locale pe tema siguranței publice.
-                Monitorizarea intervențiilor MAI în zone sensibile.
-              </p>
+        <div className="scroll-animate">
+          <div className="bg-white p-10 rounded-3xl shadow-2xl border border-gray-100">
+            <h3 className="text-4xl font-bold text-gray-900 mb-12 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Procesul de Mediere
+            </h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {processSteps.map((step, index) => (
+                <div key={index} className="text-center interactive-card bg-gradient-to-br from-white to-gray-50 p-8 rounded-2xl shadow-lg border border-gray-100">
+                  <div className={`bg-gradient-to-r ${step.color} w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 text-white font-bold text-2xl shadow-lg`}>
+                    {step.number}
+                  </div>
+                  <h4 className="font-bold text-gray-900 mb-4 text-xl leading-tight">{step.title}</h4>
+                  <p className="text-gray-600 leading-relaxed">{step.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

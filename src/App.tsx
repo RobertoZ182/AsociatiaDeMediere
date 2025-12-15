@@ -1,25 +1,28 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Team from './components/Team';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import HomePage from './pages/Homepage';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import SprachenButton from "./components/Buttonlang";
+import EuropeMapPage from './pages/RomaMap';
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Services />
-        <Team />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <>
+    <SprachenButton variant="floating" />
+     <BrowserRouter>
+      <Routes>
+        {/* Layout wraps all pages with header/footer */}
+        
+          {/* Home / Landing */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/roma-map" element={<EuropeMapPage />} />
+
+          {/* 404 → redirect to home (you can replace with a NotFound component) */}
+          <Route path="*" element={<Navigate to="/" replace />} />
+        
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 

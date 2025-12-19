@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Languages } from "lucide-react";
@@ -44,7 +43,6 @@ export default function SprachenButton({ variant = "floating" }: SprachenButtonP
           : "relative flex items-center"
       }
     >
-    
       <AnimatePresence>
         {open && (
           <motion.div
@@ -82,15 +80,15 @@ export default function SprachenButton({ variant = "floating" }: SprachenButtonP
         )}
       </AnimatePresence>
 
-      {/* Main button */}
+      {/* Main button (changed to gold) */}
       <motion.button
         onClick={() => setOpen(!open)}
         whileTap={{ scale: 0.9 }}
         whileHover={{ scale: 1.05 }}
         className={
           isFloating
-            ? "w-24 h-12 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition flex items-center justify-center"
-            : "w-10 h-10 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition flex items-center justify-center"
+            ? "w-24 h-12 bg-amber-500 text-black p-4 rounded-full shadow-lg hover:bg-amber-600 transition flex items-center justify-center border border-amber-200/40"
+            : "w-10 h-10 bg-amber-500 text-black rounded-full shadow-md hover:bg-amber-600 transition flex items-center justify-center border border-amber-200/40"
         }
       >
         <Languages size={22} />

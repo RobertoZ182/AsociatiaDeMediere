@@ -10,10 +10,7 @@ const Header = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -31,8 +28,8 @@ const Header = () => {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-100"
-          : "bg-white/80 backdrop-blur-sm shadow-md"
+          ? "bg-black/85 backdrop-blur-md shadow-2xl shadow-black/50 border-b border-amber-400/15"
+          : "bg-black/70 backdrop-blur-sm shadow-xl shadow-black/40 border-b border-amber-400/10"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,34 +41,43 @@ const Header = () => {
           >
             <div className="relative">
               <img
-                src="/WhatsApp Image 2025-09-13 at 23.18.21_b9f8716d.jpg"
+                src="/WhatsApp Image 2025-12-08 at 21.47.38_0f240e2f.jpg"
                 alt={t("header.logoAlt")}
-                className="h-12 w-12 object-contain rounded-full transition-transform duration-300 group-hover:scale-110"
+                className="h-12 w-12 object-contain rounded-full bg-black
+                           border border-amber-300/35 shadow-lg shadow-black/40
+                           transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400/20 to-purple-400/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              {/* gold halo */}
+              <div className="absolute -inset-2 rounded-full border border-amber-300/15 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 rounded-full bg-[radial-gradient(circle,rgba(212,175,55,0.22)_0%,rgba(0,0,0,0)_60%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
 
             <div className="flex flex-col">
-              <h1 className="text-lg font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent leading-tight">
-                {t("header.title")}
+              <h1 className="text-lg font-serif font-semibold tracking-wide leading-tight">
+                <span className="bg-gradient-to-r from-amber-200 via-yellow-500 to-amber-300 bg-clip-text text-transparent">
+                  {t("header.title")}
+                </span>
               </h1>
-              <span className="text-sm text-blue-700 font-medium">
+              <span className="text-sm text-amber-100/75 font-serif tracking-wide">
                 {t("header.subtitle")}
               </span>
             </div>
           </Link>
 
           {/* DESKTOP NAV */}
-          <div className="hidden md:flex items-center space-x-4">
-            <div className="flex space-x-2">
+          <div className="hidden md:flex items-center">
+            <div className="flex items-center space-x-1 rounded-2xl border border-amber-400/15 bg-black/30 px-2 py-1">
               {navigation.map((item) => (
                 <Link
                   key={item.key}
                   to={item.href}
-                  className="relative px-4 py-2 text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 rounded-xl hover:bg-blue-50 group"
+                  className="relative px-4 py-2 font-serif tracking-wide text-amber-100/80
+                             hover:text-amber-100 transition-all duration-300 rounded-xl
+                             hover:bg-amber-300/10"
                 >
                   <span className="relative z-10">{t(item.key)}</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
+                  {/* underline flourish */}
+                  <span className="absolute left-4 right-4 -bottom-0.5 h-px bg-gradient-to-r from-transparent via-amber-300/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300" />
                 </Link>
               ))}
             </div>
@@ -81,7 +87,10 @@ const Header = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="relative p-2 text-gray-700 hover:text-blue-600 transition-colors duration-300 rounded-xl hover:bg-blue-50"
+              className="relative p-2 rounded-xl border border-amber-400/15 bg-black/30
+                         text-amber-100/80 hover:text-amber-100 hover:bg-amber-300/10
+                         transition-all duration-300"
+              aria-label="Toggle menu"
             >
               <div className="relative w-6 h-6">
                 <Menu
@@ -107,23 +116,30 @@ const Header = () => {
             isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="border-t border-gray-200 bg-white/95 backdrop-blur-md rounded-b-2xl">
-            <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="rounded-b-2xl border-t border-amber-400/15 bg-black/85 backdrop-blur-md">
+            <div className="px-2 pt-3 pb-4 space-y-1">
               {navigation.map((item, index) => (
                 <Link
                   key={item.key}
                   to={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`block px-4 py-3 text-gray-700 hover:text-blue-600 font-medium rounded-xl hover:bg-blue-50 transition-all duration-300 transform ${
-                    isMenuOpen
-                      ? "translate-x-0 opacity-100"
-                      : "translate-x-4 opacity-0"
-                  }`}
+                  className={`block px-4 py-3 rounded-xl font-serif tracking-wide
+                             text-amber-100/80 hover:text-amber-100
+                             hover:bg-amber-300/10 transition-all duration-300 transform border border-transparent
+                             hover:border-amber-400/15 ${
+                               isMenuOpen
+                                 ? "translate-x-0 opacity-100"
+                                 : "translate-x-4 opacity-0"
+                             }`}
                   style={{ transitionDelay: `${index * 50}ms` }}
                 >
                   {t(item.key)}
                 </Link>
               ))}
+
+              <div className="pt-3">
+                <div className="mx-4 h-px bg-gradient-to-r from-transparent via-amber-400/35 to-transparent" />
+              </div>
             </div>
           </div>
         </div>

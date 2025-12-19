@@ -26,10 +26,11 @@ i18n
           },
           nav: {
             home: "Khere",
-            about: "Pa ame",
-            services: "Serviciura",
-            team: "Ekipá",
-            contact: "Kontaktos",
+            infoUtil: "Utilo informatsia",
+            programeSuport: "Programura pa suporta",
+            transparenta: "Transparentia",
+            fiiDonator: "Av donatori",
+            inscrieTe: "Registrin tu"
           },
           hero: {
             title: {
@@ -379,6 +380,54 @@ i18n
               gdpr: "GDPR",
             },
           },
+
+          gantt: {
+            title: "Aktivitetesqo plano 2025 – Jan 2026",
+            legend: {
+              activity: "Aktiviteti",
+              milestone: "Cheio evento"
+            },
+            tag: {
+              activity: "Aktiviteti",
+              milestone: "Evento"
+            },
+            table: {
+              nr: "Nr",
+              description: "Deskripcija"
+            },
+            periodsLabel: "Periodura:",
+            weekShort: "Sapt. {{week}}",
+            weekSingle: "Sapt. {{week}}",
+            weekRange: "Sapt. {{start}}–{{end}}",
+            weekTooltip: "Saptamana {{week}}",
+            a11y: {
+              range: "{{id}}: sapt. {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Registracija domeno thaj keribe web-pagina",
+              A2: "Vorbinimata e voluntarengo ekipasa",
+              A3: "Dikhipen thaj distribuția sarcinengo la voluntari",
+              A4: "Plano marketingosqo thaj resursengo kerdipen",
+              A5: "Strategia pa jekharel romen ande savore Europaqe themura",
+              A6: "Kerdipen 10 projektosqe fise pa europaqe programe",
+              A7: "Keripen liderengo pa domenura thaj themura",
+              A8: "Web-pagina kerdi e liderenca regionala",
+              A9: "Dokumentura suportosqe pa sako EU them",
+              A10: "Ajutor pa keripen projektura pa finansimasa",
+              A11: "Arakhade manuša-resursura ande sako Europaqo them",
+              A12: "Diagnoza dokumenti pa romengo situacija",
+              A13: "Studii thaj analiza save pomaghen romen",
+              A14: "Arakhade komunitatja problemosqe ande Europa",
+              A15: "Solucii specifika thaj general pa Europa",
+              A16: "Arakhade donatori pa initialo faza",
+              A17: "Arakhade lokalne ONG-ura save aven amari misiasa",
+              A18: "Preparacija Europaqo evento pa platformaqo lansaripen",
+              A19: "Arakhade nevo suportosqe programe pa 2026",
+              A20: "Kontinuo koordinacija thaj monitorisari"
+            }
+          }
+
+
         },
       },
 
@@ -392,10 +441,11 @@ i18n
           },
           nav: {
             home: "Acasă",
-            about: "Despre Noi",
-            services: "Servicii",
-            team: "Echipa",
-            contact: "Contact",
+            infoUtil: "Informații utile",
+            programeSuport: "Programe de suport",
+            transparenta: "Transparență",
+            fiiDonator: "Fii donator",
+            inscrieTe: "Înscrie-te"
           },
           hero: {
             title: {
@@ -746,6 +796,52 @@ i18n
             },
           },
 
+          gantt: {
+            title: "Plan de acțiuni 2025 – Ian 2026",
+            legend: {
+              activity: "Activitate",
+              milestone: "Eveniment / etapă cheie"
+            },
+            tag: {
+              activity: "Activitate",
+              milestone: "Eveniment"
+            },
+            table: {
+              nr: "Nr",
+              description: "Descriere"
+            },
+            periodsLabel: "Perioade:",
+            weekShort: "Săpt. {{week}}",
+            weekSingle: "Săpt. {{week}}",
+            weekRange: "Săpt. {{start}}–{{end}}",
+            weekTooltip: "Săptămâna {{week}}",
+            a11y: {
+              range: "{{id}}: săptămâna {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Rezervare DOMENIU si Creare PAGINA WEB",
+              A2: "Discutii cu ECHIPA de VOLUNTARI",
+              A3: "Repartizare SARCINI la VOLUNTARI",
+              A4: "Gandirea si implementare PLAN de marketing / atragere beneficiar / cofinantari",
+              A5: "Gandirea unei strategii de conectare a romilor din fiecare tara si oras din Europa",
+              A6: "Scrierea a 10 fise de proiecte specific care ar putea fi conectate unor programe europene care ne pot sustine pagina web si Misiunea.",
+              A7: "Numirea LIDERILOR de DOMENIU si TARA Europeana dupa CONSULTARI",
+              A8: "Dezvoltarea pagini web in accord cu Lideri de ZONA / Domenii",
+              A9: "Redactarea documentelor suport specific per tara membra UE aduse pe pagina web",
+              A10: "Sprijin pentru dezvoltarea fiselor de proiecte pentru obtinerea finantarilor din programe",
+              A11: "Identificare de OAMENI RESURSA in fiecare tara Europeana",
+              A12: "Redactarea unui document DIAGNOZA privind STAREA LA ZI A ROMILOR in LUME si in EUROPA",
+              A13: "Identificarea de STUDII si ANALIZE specifice care pot ajuta romii din fiecare STAT EUROPEAN",
+              A14: "Identificarea de comunitati problema in Europa pe fiecare TARA EUROPEANA",
+              A15: "Identificarea de SOLUTIi SPECIFICE si GENERAL VALABLE in EUROPA",
+              A16: "Identificarea de DONATORI pentru etapa de inceput care pregateste partea tehnica a proiectelor pana primim si primele granturi",
+              A17: "Identificare de ONG-uri locale care se pot conecta cu MISIUNEA NOASTRA",
+              A18: "Pregatirea unui EVENIMENT EUROPEAN de LANSARE a PLATFORMEI",
+              A19: "Identificarea de alte programe suport care pot sustine viziunea de lucru in anul 2026",
+              A20: "Coordonare si Monitorizare continua"
+            }
+          }
+
         },
       },
 
@@ -759,10 +855,11 @@ i18n
           },
           nav: {
             home: "Home",
-            about: "About Us",
-            services: "Services",
-            team: "Team",
-            contact: "Contact",
+            infoUtil: "Useful Information",
+            programeSuport: "Support Programs",
+            transparenta: "Transparency",
+            fiiDonator: "Become a Donor",
+            inscrieTe: "Sign Up"
           },
           hero: {
             title: {
@@ -1113,6 +1210,53 @@ i18n
             },
           },
 
+          gantt: {
+            title: "Action Plan 2025 – Jan 2026",
+            legend: {
+              activity: "Activity",
+              milestone: "Key event / milestone"
+            },
+            tag: {
+              activity: "Activity",
+              milestone: "Event"
+            },
+            table: {
+              nr: "No.",
+              description: "Description"
+            },
+            periodsLabel: "Periods:",
+            weekShort: "Wk. {{week}}",
+            weekSingle: "Wk. {{week}}",
+            weekRange: "Wk. {{start}}–{{end}}",
+            weekTooltip: "Week {{week}}",
+            a11y: {
+              range: "{{id}}: week {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Domain reservation and website creation",
+              A2: "Discussions with the volunteer team",
+              A3: "Task allocation to volunteers",
+              A4: "Design and implementation of a marketing / outreach / co-funding plan",
+              A5: "Designing a strategy to connect Roma communities in each European country and city",
+              A6: "Drafting 10 specific project concept notes aligned with European funding programmes",
+              A7: "Appointment of domain and country leaders following consultations",
+              A8: "Website development in coordination with regional / domain leaders",
+              A9: "Drafting country-specific support documents to be published on the website",
+              A10: "Support for developing project proposals to access funding programmes",
+              A11: "Identification of key resource persons in each European country",
+              A12: "Drafting a diagnostic report on the current situation of Roma worldwide and in Europe",
+              A13: "Identification of studies and analyses supporting Roma communities in each EU country",
+              A14: "Identification of vulnerable communities in each European country",
+              A15: "Identification of specific and generally applicable solutions across Europe",
+              A16: "Identification of donors for the initial phase preparing technical project components",
+              A17: "Identification of local NGOs aligned with our mission",
+              A18: "Preparation of a European platform launch event",
+              A19: "Identification of additional support programmes for the 2026 vision",
+              A20: "Continuous coordination and monitoring"
+            }
+          }
+
+
         },
       },
 
@@ -1126,10 +1270,11 @@ i18n
           },
           nav: {
             home: "Startseite",
-            about: "Über uns",
-            services: "Dienstleistungen",
-            team: "Team",
-            contact: "Kontakt",
+            infoUtil: "Nützliche Informationen",
+            programeSuport: "Förderprogramme",
+            transparenta: "Transparenz",
+            fiiDonator: "Spender werden",
+            inscrieTe: "Registrieren"
           },
           hero: {
             title: {
@@ -1480,6 +1625,53 @@ i18n
             },
           },
 
+          gantt: {
+            title: "Aktionsplan 2025 – Jan 2026",
+            legend: {
+              activity: "Aktivität",
+              milestone: "Schlüsselereignis"
+            },
+            tag: {
+              activity: "Aktivität",
+              milestone: "Ereignis"
+            },
+            table: {
+              nr: "Nr.",
+              description: "Beschreibung"
+            },
+            periodsLabel: "Zeiträume:",
+            weekShort: "Kw. {{week}}",
+            weekSingle: "Kw. {{week}}",
+            weekRange: "Kw. {{start}}–{{end}}",
+            weekTooltip: "Kalenderwoche {{week}}",
+            a11y: {
+              range: "{{id}}: Woche {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Domainreservierung und Website-Erstellung",
+              A2: "Gespräche mit dem Freiwilligenteam",
+              A3: "Aufgabenverteilung an Freiwillige",
+              A4: "Entwicklung und Umsetzung eines Marketing- und Finanzierungsplans",
+              A5: "Strategie zur Vernetzung von Roma-Gemeinschaften in Europa",
+              A6: "Erstellung von 10 Projektkonzepten für EU-Programme",
+              A7: "Benennung von Fach- und Länderkoordinatoren",
+              A8: "Website-Entwicklung mit regionalen Fachleitern",
+              A9: "Erstellung länderspezifischer Unterstützungsdokumente",
+              A10: "Unterstützung bei der Entwicklung von Förderanträgen",
+              A11: "Identifizierung von Schlüsselpersonen in jedem europäischen Land",
+              A12: "Erstellung eines Diagnoseberichts zur Lage der Roma",
+              A13: "Identifizierung relevanter Studien und Analysen",
+              A14: "Identifizierung benachteiligter Gemeinschaften",
+              A15: "Identifizierung spezifischer und allgemeiner Lösungen",
+              A16: "Identifizierung von Spendern für die Anfangsphase",
+              A17: "Identifizierung lokaler NGOs im Einklang mit unserer Mission",
+              A18: "Vorbereitung einer europäischen Plattform-Auftaktveranstaltung",
+              A19: "Identifizierung weiterer Förderprogramme für 2026",
+              A20: "Laufende Koordination und Überwachung"
+            }
+          }
+
+
         },
       },
 
@@ -1493,10 +1685,11 @@ i18n
           },
           nav: {
             home: "Accueil",
-            about: "À propos",
-            services: "Services",
-            team: "Équipe",
-            contact: "Contact",
+            infoUtil: "Informations utiles",
+            programeSuport: "Programmes de soutien",
+            transparenta: "Transparence",
+            fiiDonator: "Devenir donateur",
+            inscrieTe: "S’inscrire"
           },
           hero: {
             title: {
@@ -1847,6 +2040,52 @@ i18n
             },
           },
 
+          gantt: {
+            title: "Plan d’action 2025 – Jan 2026",
+            legend: {
+              activity: "Activité",
+              milestone: "Événement clé"
+            },
+            tag: {
+              activity: "Activité",
+              milestone: "Événement"
+            },
+            table: {
+              nr: "N°",
+              description: "Description"
+            },
+            periodsLabel: "Périodes :",
+            weekShort: "Sem. {{week}}",
+            weekSingle: "Sem. {{week}}",
+            weekRange: "Sem. {{start}}–{{end}}",
+            weekTooltip: "Semaine {{week}}",
+            a11y: {
+              range: "{{id}} : semaine {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Réservation du domaine et création du site web",
+              A2: "Discussions avec l’équipe de bénévoles",
+              A3: "Répartition des tâches aux bénévoles",
+              A4: "Élaboration et mise en œuvre d’un plan marketing et de financement",
+              A5: "Stratégie de mise en réseau des communautés roms en Europe",
+              A6: "Rédaction de 10 fiches projets pour programmes européens",
+              A7: "Nomination des responsables de domaine et de pays",
+              A8: "Développement du site web avec les responsables régionaux",
+              A9: "Rédaction de documents de soutien par pays de l’UE",
+              A10: "Soutien à l’élaboration de demandes de financement",
+              A11: "Identification des personnes-ressources dans chaque pays",
+              A12: "Rédaction d’un rapport de diagnostic sur la situation des Roms",
+              A13: "Identification d’études et d’analyses pertinentes",
+              A14: "Identification des communautés vulnérables",
+              A15: "Identification de solutions spécifiques et générales",
+              A16: "Identification de donateurs pour la phase initiale",
+              A17: "Identification d’ONG locales alignées sur notre mission",
+              A18: "Préparation d’un événement européen de lancement",
+              A19: "Identification de programmes de soutien pour 2026",
+              A20: "Coordination et suivi continus"
+            }
+          }
+
         },
       },
 
@@ -1859,11 +2098,13 @@ i18n
             logoAlt: "Logo AMCER",
           },
           nav: {
-            home: "Home",
-            about: "Chi Siamo",
-            services: "Servizi",
-            team: "Team",
-            contact: "Contatto",
+            home: "Pagina Principale",
+            infoUtil: "Informazioni utili",
+            programeSuport: "Programmi di supporto",
+            transparenta: "Trasparenza",
+            fiiDonator: "Diventa donatore",
+            inscrieTe: "Registrati"
+
           },
           hero: {
             title: {
@@ -2213,6 +2454,53 @@ i18n
               gdpr: "GDPR",
             },
           },
+
+          gantt: {
+            title: "Piano d’azione 2025 – Gen 2026",
+            legend: {
+              activity: "Attività",
+              milestone: "Evento chiave"
+            },
+            tag: {
+              activity: "Attività",
+              milestone: "Evento"
+            },
+            table: {
+              nr: "N.",
+              description: "Descrizione"
+            },
+            periodsLabel: "Periodi:",
+            weekShort: "Sett. {{week}}",
+            weekSingle: "Sett. {{week}}",
+            weekRange: "Sett. {{start}}–{{end}}",
+            weekTooltip: "Settimana {{week}}",
+            a11y: {
+              range: "{{id}}: settimana {{start}}–{{end}}"
+            },
+            tasks: {
+              A1: "Registrazione del dominio e creazione del sito web",
+              A2: "Discussioni con il team di volontari",
+              A3: "Assegnazione dei compiti ai volontari",
+              A4: "Sviluppo e implementazione di un piano di marketing e finanziamento",
+              A5: "Strategia di collegamento delle comunità rom in Europa",
+              A6: "Redazione di 10 schede progetto per programmi europei",
+              A7: "Nomina dei responsabili di settore e paese",
+              A8: "Sviluppo del sito web con i responsabili regionali",
+              A9: "Redazione di documenti di supporto specifici per paese UE",
+              A10: "Supporto allo sviluppo di proposte di finanziamento",
+              A11: "Identificazione delle persone chiave in ogni paese europeo",
+              A12: "Redazione di un rapporto diagnostico sulla situazione dei rom",
+              A13: "Identificazione di studi e analisi rilevanti",
+              A14: "Identificazione delle comunità vulnerabili",
+              A15: "Identificazione di soluzioni specifiche e generali",
+              A16: "Identificazione di donatori per la fase iniziale",
+              A17: "Identificazione di ONG locali allineate alla missione",
+              A18: "Preparazione di un evento europeo di lancio della piattaforma",
+              A19: "Identificazione di programmi di supporto per il 2026",
+              A20: "Coordinamento e monitoraggio continui"
+            }
+          }
+
 
         },
       },

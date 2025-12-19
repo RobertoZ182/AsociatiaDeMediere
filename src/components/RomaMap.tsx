@@ -13,7 +13,8 @@ interface CountryInfo {
   name: string;
   title: string;
   description: string;
-  stats?: string;
+
+  profilePic?: string;
 }
 
 const COUNTRY_INFO: Record<string, CountryInfo> = {
@@ -21,27 +22,31 @@ const COUNTRY_INFO: Record<string, CountryInfo> = {
     name: "Romania",
     title: "Romania",
     description:
-      "Member of the European Union since 2007. Known for its diverse culture and rich history.",
-    stats: "Population ~19M",
+      "The Responsible Country for the largest Roma population in Europe. The Roma leader here is Florin Motoi.",
+    profilePic: "/WhatsApp Image 2025-09-15 at 15.00.25_e2a1c871.jpg",
+
   },
   Germany: {
     name: "Germany",
     title: "Germany",
     description: "Largest economy in Europe and a key member of the European Union.",
-    stats: "Population ~84M",
+    profilePic: "/WhatsApp Image 2025-09-15 at 15.00.25_e2a1c871.jpg",
+
   },
   France: {
     name: "France",
     title: "France",
     description:
       "A founding member of the EU, famous for its culture, gastronomy and history.",
-    stats: "Population ~68M",
+    profilePic: "/WhatsApp Image 2025-09-15 at 15.00.25_e2a1c871.jpg",
+
   },
   Italy: {
     name: "Italy",
     title: "Italy",
     description: "Mediterranean country known for its ancient history, art and cuisine.",
-    stats: "Population ~59M",
+    profilePic: "/WhatsApp Image 2025-09-15 at 15.00.25_e2a1c871.jpg",
+
   },
 };
 
@@ -49,8 +54,8 @@ const EuropeMapPage: React.FC = () => {
   const [selectedCountry, setSelectedCountry] = useState<CountryInfo | null>(null);
 
   return (
-    <div className="min-h-screen bg-slate-950 flex items-center justify-center py-10 px-4">
-      <div className="max-w-6xl w-full bg-slate-900/80 border border-slate-700 rounded-3xl shadow-2xl overflow-hidden grid lg:grid-cols-3 gap-0">
+    <div className="min-h-screen bg-white-950 flex items-center justify-center py-10 px-4">
+      <div className="max-w-6xl w-full bg-blue-900/80 border border-slate-700 rounded-3xl shadow-2xl overflow-hidden grid lg:grid-cols-3 gap-0">
         {/* Map side */}
         <div className="lg:col-span-2 relative p-6 lg:p-10">
           <h1 className="text-2xl lg:text-3xl font-bold text-white mb-4">
@@ -82,17 +87,12 @@ const EuropeMapPage: React.FC = () => {
                     {({ geographies }: { geographies: any[] }) =>
                       geographies.map((geo: any) => {
 
-
                         return (
                           <Geography
                             key={geo.rsmKey}
                             geography={geo}
                             onClick={() => {
                               const name = geo.properties.NAME;
-
-                             
-                              // toggle off if clicking the same country
-                              console.log("Clicked country:", name);
                               if (selectedCountry?.name === name) {
                                 setSelectedCountry(null);
                                 return;
@@ -108,13 +108,13 @@ const EuropeMapPage: React.FC = () => {
                             }}
                             style={{
                               default: {
-                                fill:  "#1e293b",
+                                fill: "#1e293b",
                                 stroke: "#0f172a",
                                 strokeWidth: 0.5,
                                 outline: "none",
                                 transition: "all 150ms ease-out",
                                 cursor: "pointer",
-                               
+
                               },
                               hover: {
                                 fill: "#38bdf8",
@@ -144,7 +144,7 @@ const EuropeMapPage: React.FC = () => {
         </div>
 
         {/* Info pane */}
-        <div className="bg-slate-900/90 border-l border-slate-700 p-6 lg:p-8 flex flex-col justify-between">
+        <div className="bg-blue-900/90 border-l border-slate-700 p-6 lg:p-8 flex flex-col justify-between">
           <div>
             <h2 className="text-xl font-semibold text-white mb-4">
               {selectedCountry?.title || "Click a country"}
@@ -156,21 +156,15 @@ const EuropeMapPage: React.FC = () => {
                 : "Click a country on the map to see details here."}
             </p>
 
-            {selectedCountry?.stats && (
-              <p className="inline-flex items-center text-sm font-semibold px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-300 border border-cyan-500/40">
-                {selectedCountry.stats}
-              </p>
+            {selectedCountry?.profilePic && (
+              <img src={selectedCountry.profilePic} alt={selectedCountry.name} className="w-full h-auto rounded-lg shadow-lg" />
             )}
           </div>
 
-          <div className="mt-8 text-xs text-slate-500">
-            <p>
-              Tip: you can later hook this map to real data (GDP, population, projects,
-              etc.) and show it here.
-            </p>
-          </div>
+
         </div>
       </div>
+
     </div>
   );
 };

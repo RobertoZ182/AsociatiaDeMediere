@@ -2,26 +2,29 @@ import React from 'react';
 import HomePage from './pages/Homepage';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import SprachenButton from "./components/Buttonlang";
-import EuropeMapPage from './pages/RomaMap';
-
+import InfoUtil from './pages/InfoUtil';
+import InscrieTe from './pages/InscrieTe';
+import ProgrameSuport from './pages/ProgrameSuport';
+import Transparenta from './pages/Transparenta';
+import FiiDonator from './pages/FiiDonator';
+import Header from './components/Header';
 
 function App() {
   return (
     <>
+    <Header />
     <SprachenButton variant="floating" />
-     <BrowserRouter>
       <Routes>
-        {/* Layout wraps all pages with header/footer */}
-        
-          {/* Home / Landing */}
           <Route path="/" element={<HomePage />} />
-          <Route path="/roma-map" element={<EuropeMapPage />} />
-
-          {/* 404 → redirect to home (you can replace with a NotFound component) */}
+          <Route path="/infoUtil" element={<InfoUtil />} />
+          <Route path="/inscrieTe" element={<InscrieTe />} />
+          <Route path="/programeSuport" element={<ProgrameSuport />} />
+          <Route path="/transparenta" element={<Transparenta />} />
+          <Route path="/fiiDonator" element={<FiiDonator />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         
       </Routes>
-    </BrowserRouter>
+    
     </>
   );
 }

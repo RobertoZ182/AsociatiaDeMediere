@@ -534,8 +534,51 @@ i18n
               disclaimer:
                 "Registracia si jekh paś te avela tu membru. Informacia personala si protejime konfidențial.",
             },
+          },
+          europeMap: {
+            title: "Roma Evropako Harta",
+            subtitle: "Klikis pe jekh them te dikhes maj but informacia.",
+            infoPane: {
+              titleIdle: "Klikis pe jekh them",
+              bodyIdle: "Klikis pe jekh them ando harta te dikhes detalya akate."
+            },
+            fallback: {
+              title: "Informacia",
+              description: "Nane informacia akana pala {{country}}."
+            },
+            countries: {
+              romania: {
+                title: "România",
+                description:
+                  "România si o them andar Europa kaj si o maj baro numaro Roma. O Roma lider akate si Florin Motoi."
+              },
+              germany: {
+                title: "Germania",
+                description:
+                  "Germania si o maj baro ekonomia ando Europa thaj jekh baro membro ande UE. O Roma komuniteti akate si ledoro Roberto Zatreanu."
+              },
+              france: {
+                title: "Francia",
+                description:
+                  "Francia si jekh fundatori andar e UE, barvalipe pe kultura, xaben thaj istorija."
+              },
+              italy: {
+                title: "Italia",
+                description:
+                  "Ande Italia si but Roma komunitetya. O Roma komuniteti akate si ledoro Marius Cirpaci."
+              },
+              uk: {
+                title: "Britania",
+                description:
+                  "Ando UK si jekh misto Roma populacia andar buter komunitetya. O Roma komuniteti akate si ledoro Cristian Buceanu."
+              },
+              ireland: {
+                title: "Irlanda",
+                description:
+                  "Ande Irlanda si jekh misto Roma populacia andar buter komunitetya. O Roma komuniteti akate si ledoro Hajnal Servitory."
+              }
+            }
           }
-
         },
       },
 
@@ -1058,7 +1101,50 @@ i18n
                 "Datele tale sunt tratate confidențial. Înscrierea confirmă interesul de a deveni membru/voluntar/expert.",
             },
           },
-
+          europeMap: {
+            title: "Harta Romilor din Europa",
+            subtitle: "Apasă pe o țară pentru a vedea mai multe informații.",
+            infoPane: {
+              titleIdle: "Apasă pe o țară",
+              bodyIdle: "Selectează o țară de pe hartă pentru a vedea detalii aici."
+            },
+            fallback: {
+              title: "Informații",
+              description: "Nu există încă informații disponibile pentru {{country}}."
+            },
+            countries: {
+              romania: {
+                title: "România",
+                description:
+                  "România este țara cu cea mai mare populație de romi din Europa. Liderul romilor aici este Florin Motoi."
+              },
+              germany: {
+                title: "Germania",
+                description:
+                  "Germania este cea mai mare economie din Europa și un membru-cheie al Uniunii Europene. Comunitatea de romi de aici este condusă de Roberto Zatreanu."
+              },
+              france: {
+                title: "Franța",
+                description:
+                  "Franța este membru fondator al UE, cunoscută pentru cultura, gastronomia și istoria sa."
+              },
+              italy: {
+                title: "Italia",
+                description:
+                  "Italia are comunități rome semnificative. Comunitatea de romi de aici este condusă de Marius Cirpaci."
+              },
+              uk: {
+                title: "Regatul Unit",
+                description:
+                  "Regatul Unit are o populație romă mixtă din comunități diferite. Comunitatea de romi de aici este condusă de Cristian Buceanu."
+              },
+              ireland: {
+                title: "Irlanda",
+                description:
+                  "Irlanda are o populație romă mixtă din comunități diferite. Comunitatea de romi de aici este condusă de Hajnal Servitory."
+              }
+            }
+          }
         },
       },
 
@@ -1583,8 +1669,50 @@ i18n
                 "Your data is handled confidentially. Registration confirms your interest to join as a member/volunteer/expert.",
             },
           },
-
-
+          europeMap: {
+            title: "Roma Europe Map",
+            subtitle: "Click a country to see more information.",
+            infoPane: {
+              titleIdle: "Click a country",
+              bodyIdle: "Click a country on the map to see details here."
+            },
+            fallback: {
+              title: "Information",
+              description: "No additional information available for {{country}} yet."
+            },
+            countries: {
+              romania: {
+                title: "Romania",
+                description:
+                  "Romania is the country with the largest Roma population in Europe. The Roma leader here is Florin Motoi."
+              },
+              germany: {
+                title: "Germany",
+                description:
+                  "Germany has the largest economy in Europe and is a key member of the European Union. The Roma community here is led by Roberto Zatreanu."
+              },
+              france: {
+                title: "France",
+                description:
+                  "A founding member of the EU, known for its culture, gastronomy, and history."
+              },
+              italy: {
+                title: "Italy",
+                description:
+                  "Italy has significant Roma communities. The Roma community here is led by Marius Cirpaci."
+              },
+              uk: {
+                title: "United Kingdom",
+                description:
+                  "The UK has a mixed Roma population from different communities. The Roma community here is led by Cristian Buceanu."
+              },
+              ireland: {
+                title: "Ireland",
+                description:
+                  "Ireland has a mixed Roma population from different communities. The Roma community here is led by Hajnal Servitory."
+              }
+            }
+          }
         },
       },
 
@@ -2109,7 +2237,51 @@ i18n
                 "Deine Daten werden vertraulich behandelt. Die Registrierung bestätigt dein Interesse als Mitglied/Freiwillige*r/Expert*in.",
             },
           },
-
+          europeMap: {
+            title: "Roma-Karte Europas",
+            subtitle: "Klicke auf ein Land, um mehr Informationen zu sehen.",
+            infoPane: {
+              titleIdle: "Klicke auf ein Land",
+              bodyIdle: "Wähle ein Land auf der Karte aus, um hier Details zu sehen."
+            },
+            fallback: {
+              title: "Information",
+              description:
+                "Derzeit sind keine weiteren Informationen für {{country}} verfügbar."
+            },
+            countries: {
+              romania: {
+                title: "Rumänien",
+                description:
+                  "Rumänien ist das Land mit der größten Roma-Bevölkerung in Europa. Der Roma-Leiter hier ist Florin Motoi."
+              },
+              germany: {
+                title: "Deutschland",
+                description:
+                  "Deutschland hat die größte Volkswirtschaft Europas und ist ein wichtiges Mitglied der Europäischen Union. Die Roma-Gemeinschaft hier wird von Roberto Zatreanu geleitet."
+              },
+              france: {
+                title: "Frankreich",
+                description:
+                  "Ein Gründungsmitglied der EU, bekannt für Kultur, Gastronomie und Geschichte."
+              },
+              italy: {
+                title: "Italien",
+                description:
+                  "Italien hat bedeutende Roma-Gemeinschaften. Die Roma-Gemeinschaft hier wird von Marius Cirpaci geleitet."
+              },
+              uk: {
+                title: "Vereinigtes Königreich",
+                description:
+                  "Im Vereinigten Königreich gibt es eine gemischte Roma-Bevölkerung aus verschiedenen Gemeinschaften. Die Roma-Gemeinschaft hier wird von Cristian Buceanu geleitet."
+              },
+              ireland: {
+                title: "Irland",
+                description:
+                  "In Irland gibt es eine gemischte Roma-Bevölkerung aus verschiedenen Gemeinschaften. Die Roma-Gemeinschaft hier wird von Hajnal Servitory geleitet."
+              }
+            }
+          }
         },
       },
 
@@ -2632,6 +2804,52 @@ i18n
                 "Vos données sont traitées de manière confidentielle. L’inscription confirme votre intérêt à rejoindre l’association.",
             },
           },
+          europeMap: {
+            title: "Carte des Roms en Europe",
+            subtitle: "Cliquez sur un pays pour voir plus d’informations.",
+            infoPane: {
+              titleIdle: "Cliquez sur un pays",
+              bodyIdle: "Sélectionnez un pays sur la carte pour voir les détails ici."
+            },
+            fallback: {
+              title: "Informations",
+              description:
+                "Aucune information supplémentaire n’est disponible pour {{country}} pour le moment."
+            },
+            countries: {
+              romania: {
+                title: "Roumanie",
+                description:
+                  "La Roumanie est le pays ayant la plus grande population rom en Europe. Le leader rom ici est Florin Motoi."
+              },
+              germany: {
+                title: "Allemagne",
+                description:
+                  "L’Allemagne possède la plus grande économie d’Europe et est un membre clé de l’Union européenne. La communauté rom ici est dirigée par Roberto Zatreanu."
+              },
+              france: {
+                title: "France",
+                description:
+                  "Membre fondateur de l’UE, connue pour sa culture, sa gastronomie et son histoire."
+              },
+              italy: {
+                title: "Italie",
+                description:
+                  "L’Italie compte d’importantes communautés roms. La communauté rom ici est dirigée par Marius Cirpaci."
+              },
+              uk: {
+                title: "Royaume-Uni",
+                description:
+                  "Le Royaume-Uni a une population rom mixte issue de différentes communautés. La communauté rom ici est dirigée par Cristian Buceanu."
+              },
+              ireland: {
+                title: "Irlande",
+                description:
+                  "L’Irlande a une population rom mixte issue de différentes communautés. La communauté rom ici est dirigée par Hajnal Servitory."
+              }
+            }
+          }
+
 
         },
       },
@@ -3156,6 +3374,51 @@ i18n
                 "I tuoi dati sono trattati in modo riservato. L’iscrizione conferma l’interesse a partecipare come membro/volontario/esperto.",
             },
           },
+
+          europeMap: {
+            title: "Mappa dei Rom in Europa",
+            subtitle: "Clicca su un paese per vedere maggiori informazioni.",
+            infoPane: {
+              titleIdle: "Clicca su un paese",
+              bodyIdle: "Seleziona un paese sulla mappa per vedere i dettagli qui."
+            },
+            fallback: {
+              title: "Informazioni",
+              description: "Non sono ancora disponibili informazioni per {{country}}."
+            },
+            countries: {
+              romania: {
+                title: "Romania",
+                description:
+                  "La Romania è il paese con la più grande popolazione rom in Europa. Il leader rom qui è Florin Motoi."
+              },
+              germany: {
+                title: "Germania",
+                description:
+                  "La Germania ha la più grande economia d’Europa ed è un membro chiave dell’Unione Europea. La comunità rom qui è guidata da Roberto Zatreanu."
+              },
+              france: {
+                title: "Francia",
+                description:
+                  "Membro fondatore dell’UE, famosa per la sua cultura, gastronomia e storia."
+              },
+              italy: {
+                title: "Italia",
+                description:
+                  "In Italia ci sono comunità rom significative. La comunità rom qui è guidata da Marius Cirpaci."
+              },
+              uk: {
+                title: "Regno Unito",
+                description:
+                  "Nel Regno Unito c’è una popolazione rom mista proveniente da diverse comunità. La comunità rom qui è guidata da Cristian Buceanu."
+              },
+              ireland: {
+                title: "Irlanda",
+                description:
+                  "In Irlanda c’è una popolazione rom mista proveniente da diverse comunità. La comunità rom qui è guidata da Hajnal Servitory."
+              }
+            }
+          }
 
         },
       },

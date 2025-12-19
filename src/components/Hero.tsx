@@ -55,11 +55,11 @@ const Hero = () => {
             style={{ animationDelay: "0.2s" }}
           >
             <span className="bg-gradient-to-r from-amber-200 via-yellow-500 to-amber-300 bg-clip-text text-transparent">
-              {t("hero.title.mediation")}
+              {t("header.title")}
             </span>{" "}
             <span className="text-amber-100/90">{t("hero.title.and")}</span>{" "}
             <span className="bg-gradient-to-r from-amber-200 via-yellow-500 to-amber-300 bg-clip-text text-transparent">
-              {t("hero.title.reconciliation")}
+              {t("header.subtitle")}
             </span>
           </h1>
 

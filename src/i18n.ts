@@ -425,8 +425,116 @@ i18n
               A19: "Arakhade nevo suportosqe programe pa 2026",
               A20: "Kontinuo koordinacija thaj monitorisari"
             }
+          },
+          join: {
+            hero: {
+              kicker: "Aven andre",
+              title: "Registrin tu thaj avela parta le AMCER-esko",
+              subtitle:
+                "Kana tu registrin tu, tu na san numa jekh anav ande lista — tu avel jekh lav, jekh buti, jekh reprezentacia. Keram jekhate decizia, buti thaj zoralipen le komunitetasko.",
+              stats: {
+                stat1: { label: "So kerel registracia", value: "Parta ande decizia" },
+                stat2: { label: "So avel tuće", value: "Rolura & domenura" },
+                stat3: { label: "So zoralel", value: "Komuniteto & dignitate" },
+              },
+            },
+            cta: {
+              primary: { label: "Registrin tu akana", href: "/inscrie-te" },
+              secondary: { label: "Dikhipen so si AMCER", href: "/#about" },
+              help: { label: "Mangen ajutor?", href: "/#contact" },
+              emailDocuments: {
+                label: "Bišinel email le dokumentenca pe registracia",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Registracia%20-%20DOKUMENTURA&body=Sastipe,%0D%0A%0D%0AMe/%20Amen%20mangav%20te%20registrin%20man%20ando%20asociatia.%0D%0AAv%20le%20dokumentura%20atasate%20and-o%20emailos.%0D%0A%0D%0AAnav:%20%0D%0ATelefonos:%20%0D%0AThemutni/%20Oraş:%20%0D%0ARola%20(membru/voluntaro/expert):%20%0D%0ADomeno:%20%0D%0A%0D%0AMulumesc!",
+              },
+            },
+            aside: {
+              title: "So te džanes maj angle",
+              body:
+                "Registracia si jekh paś te avela tu jekh aktivo membru. Jekhate keram planura, konsultacia thaj reprezentacia pe komuniteto.",
+              bullets: {
+                b1: "Aven informime pe akcione thaj planura",
+                b2: "Aven shaj te del tuja ideja thaj te kerel tuja buti",
+                b3: "Aven shaj te avel tu jekh reprezentanto ande struktura",
+              },
+              note: {
+                title: "Noticia",
+                body:
+                  "Te manghes, shaj te registrin tu sar voluntaro, sar membru, va sar expert ande jekh domeno.",
+              },
+            },
+            reasons: {
+              title: "Sośke te registrin tu?",
+              subtitle:
+                "Avereske si but motivura. Avere si sa: te avela tu jekh lav ande decizia thaj te zoralel tuja komuniteto.",
+              localDecision: {
+                title: "Te avela tu ande lokale/regionalne struktura le deciziaske",
+                body:
+                  "Te del tuja opinia, te phandel nevoia thaj te kerel tuja kontribucia ande planura kaj trubul pe romane komunitetura.",
+              },
+              domainStructures: {
+                title: "Te avela tu ande struktura le asociațieske pe domeno",
+                body:
+                  "Sostar jekh domeno trubul manuša save džanen — edukacia, medijacia, legia, socialo, kulturaki buti. Tu shaj te avel jekh.",
+              },
+              helpCommunity: {
+                title: "Te tu simines tu rOM thaj shaj te pomages pe tuvo aproapelo",
+                body:
+                  "Kana tu avel membru, tu avel maj lačho la resursa, informacia thaj jekhate keribe te pomages pe manuša ande nevoia.",
+              },
+              referenceGroup: {
+                title: "Te avela tu jekh apartenenca ande jekh GRUP de REFERINȚA ROM",
+                body:
+                  "Jekh grup zoralel identiteto, solidaritetos thaj respektos. Na sem isoleime — sem jekhate.",
+              },
+            },
+            steps: {
+              title: "Sar kerdol?",
+              subtitle:
+                "Trin paśa. Klaro. Lačho. Thaj tu avela maj lačhe informime pa so urmol.",
+              stepLabel: "Paso {{step}}",
+              step1: {
+                title: "Phen amen so san",
+                body:
+                  "Kompletin formularo, alegen sar mangen te avel (membru/voluntaro/expert) thaj so domeno interesinel tu.",
+              },
+              step2: {
+                title: "Kerdol jekh scurto kontaktos",
+                body:
+                  "Amaro ekip ka kontaktil tu te phandel detalia thaj te arakhel jekh lačhi rola tuće.",
+              },
+              step3: {
+                title: "Aven ande buti",
+                body:
+                  "Aven ande konsultacia, grupura pe domeno thaj lokale/regionalne aktivitate. Te avel tu jekh lav, trubul tu te avel andre.",
+              },
+            },
+            faq: {
+              title: "Praśnia frekvente",
+              subtitle: "Akate arakhes maj but respunsura. Te na, kontaktil amen.",
+              q1: "So trubul te kerel te registrin man?",
+              a1:
+                "Kompletin formularo, phen tuvo interesos thaj amende ka kontaktil tu ande scurto vreme.",
+              q2: "Trubul te avel man jekh experiență?",
+              a2:
+                "Na. Te avel tu jekh inima thaj mangipen te pomages, amende ka arakhas jekh rola tuće.",
+              q3: "Sar shaj te kontribuisar?",
+              a3:
+                "Sostar mangen: konsultacia, voluntariat, informacia, organizacia, proiectura, medijacia, edukacia, komunitarutni buti.",
+              q4: "So avela man andar registracia?",
+              a4:
+                "Aven jekh grup, jekh lav ande decizia, la informacia thaj shansa te zoralel tuja komuniteto ande Europa.",
+            },
+            final: {
+              title: "Avela tu jekh parta le schimbimasko",
+              subtitle:
+                "Kana tu registrin tu, tu avel jekh glas ande jekhate. Aven te keram jekh Europa maj lačhi le romenge.",
+              primary: { label: "Registrin tu akana" },
+              secondary: { label: "Kontaktos" },
+              disclaimer:
+                "Registracia si jekh paś te avela tu membru. Informacia personala si protejime konfidențial.",
+            },
           }
-
 
         },
       },
@@ -840,7 +948,116 @@ i18n
               A19: "Identificarea de alte programe suport care pot sustine viziunea de lucru in anul 2026",
               A20: "Coordonare si Monitorizare continua"
             }
-          }
+          },
+          // ✅ ADD THIS under: ro: { translation: { ... } }
+          join: {
+            hero: {
+              kicker: "Devino parte din schimbare",
+              title: "Înscrie-te și construiește alături de noi",
+              subtitle:
+                "Prin înscriere nu ești doar un nume pe o listă — devii o voce în comunitate. Împreună putem influența decizii, crea proiecte și consolida identitatea și demnitatea romilor în Europa.",
+              stats: {
+                stat1: { label: "Impact", value: "Voce în decizie" },
+                stat2: { label: "Implicare", value: "Roluri pe domenii" },
+                stat3: { label: "Apartenență", value: "Grup de referință" },
+              },
+            },
+            cta: {
+              primary: { label: "Înscrie-te acum", href: "/inscrie-te" },
+              secondary: { label: "Află despre asociație", href: "/#about" },
+              help: { label: "Ai nevoie de ajutor?", href: "/#contact" },
+              emailDocuments: {
+                label: "Trimite email cu documentele pentru înscriere",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Înscriere%20-%20Documente&body=Bună,%0D%0A%0D%0ADoresc%20să%20mă%20înscriu%20în%20asociație.%0D%0AAtașez%20documentele%20necesare%20în%20acest%20email.%0D%0A%0D%0ANume:%20%0D%0ATelefon:%20%0D%0AȚară/Oraș:%20%0D%0ARol%20(membru/voluntar/expert):%20%0D%0ADomeniu:%20%0D%0A%0D%0AMulțumesc!",
+              },
+            },
+            aside: {
+              title: "Ce primești ca membru",
+              body:
+                "Înscrierea îți deschide accesul la inițiative, grupuri de lucru și oportunități de reprezentare. Contribuția ta contează, indiferent de rol.",
+              bullets: {
+                b1: "Acces la informații și inițiative",
+                b2: "Posibilitatea de implicare pe domenii",
+                b3: "Reprezentare și colaborare în rețea",
+              },
+              note: {
+                title: "Notă",
+                body:
+                  "Te poți înscrie ca membru, voluntar sau expert — alegi domeniul în care vrei să contribui.",
+              },
+            },
+            reasons: {
+              title: "De ce să te înscrii?",
+              subtitle:
+                "Dacă te regăsești în oricare dintre punctele de mai jos, locul tău e alături de noi.",
+              localDecision: {
+                title: "Dacă vrei să fii parte din structurile locale / regionale de decizie",
+                body:
+                  "Implică-te acolo unde se iau deciziile. Contribuie cu idei, soluții și reprezentare reală pentru comunitățile rome.",
+              },
+              domainStructures: {
+                title: "Dacă vrei să faci parte din structurile asociației pe domeniu",
+                body:
+                  "Educație, mediere, drepturi, social, cultură — avem nevoie de oameni care construiesc. Alege domeniul și implică-te.",
+              },
+              helpCommunity: {
+                title: "Dacă te simți rOM și capabil de a fi de ajutor aproapelui tău",
+                body:
+                  "Prin înscriere devii parte dintr-o rețea care sprijină, informează și acționează pentru binele celor din jur.",
+              },
+              referenceGroup: {
+                title: "Dacă vrei apartenența ta la un GRUP de REFERINȚĂ ROM",
+                body:
+                  "Apartenența creează solidaritate, identitate și încredere. Împreună suntem mai puternici și mai vizibili.",
+              },
+            },
+            steps: {
+              title: "Cum funcționează înscrierea",
+              subtitle: "În 3 pași simpli devii parte din asociație și din rețeaua noastră.",
+              stepLabel: "Pasul {{step}}",
+              step1: {
+                title: "Completează înscrierea",
+                body:
+                  "Trimite formularul și spune-ne în ce rol vrei să te implici: membru, voluntar sau expert.",
+              },
+              step2: {
+                title: "Stabilim împreună direcția",
+                body:
+                  "Un reprezentant te contactează pentru a clarifica domeniul, disponibilitatea și modalitatea de implicare.",
+              },
+              step3: {
+                title: "Te alături grupurilor de lucru",
+                body:
+                  "Participi la structuri locale/regionale sau pe domenii și contribui activ la proiecte și inițiative.",
+              },
+            },
+            faq: {
+              title: "Întrebări frecvente",
+              subtitle: "Dacă ai alte întrebări, scrie-ne și îți răspundem rapid.",
+              q1: "Ce trebuie să fac pentru a mă înscrie?",
+              a1:
+                "Completează formularul de înscriere. După trimitere, te contactăm pentru pașii următori.",
+              q2: "Trebuie să am experiență anterioară?",
+              a2:
+                "Nu. Avem roluri pentru diferite niveluri de experiență. Importantă este dorința de implicare.",
+              q3: "Cum pot contribui concret?",
+              a3:
+                "Poți ajuta în proiecte, evenimente, comunicare, mediere, educație, suport comunitar sau reprezentare.",
+              q4: "Ce beneficii am ca membru?",
+              a4:
+                "Apartenență, oportunități de implicare, acces la rețea și șansa de a influența decizii și inițiative.",
+            },
+            final: {
+              title: "Hai să construim împreună",
+              subtitle:
+                "Înscrierea ta înseamnă încă o voce puternică pentru comunitate. Fă pasul acum.",
+              primary: { label: "Înscrie-te acum" },
+              secondary: { label: "Contactează-ne" },
+              disclaimer:
+                "Datele tale sunt tratate confidențial. Înscrierea confirmă interesul de a deveni membru/voluntar/expert.",
+            },
+          },
 
         },
       },
@@ -1254,7 +1471,118 @@ i18n
               A19: "Identification of additional support programmes for the 2026 vision",
               A20: "Continuous coordination and monitoring"
             }
-          }
+          },
+          // ✅ ADD THIS under: en: { translation: { ... } }
+
+          join: {
+            hero: {
+              kicker: "Be part of the change",
+              title: "Join and build with us",
+              subtitle:
+                "Registration is more than a form — it’s your voice in the community. Together we can shape decisions, create projects, and strengthen Roma identity and dignity across Europe.",
+              stats: {
+                stat1: { label: "Impact", value: "A voice in decisions" },
+                stat2: { label: "Involvement", value: "Domain-based roles" },
+                stat3: { label: "Belonging", value: "A reference group" },
+              },
+            },
+            cta: {
+              primary: { label: "Register now", href: "/inscrie-te" },
+              secondary: { label: "Learn about the association", href: "/#about" },
+              help: { label: "Need help?", href: "/#contact" },
+              emailDocuments: {
+                label: "Send email with your registration documents",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Registration%20-%20Documents&body=Hello,%0D%0A%0D%0AI%20would%20like%20to%20register%20with%20the%20association.%0D%0AI%20have%20attached%20my%20documents%20to%20this%20email.%0D%0A%0D%0AName:%20%0D%0APhone:%20%0D%0ACountry/City:%20%0D%0ARole%20(member/volunteer/expert):%20%0D%0ADomain:%20%0D%0A%0D%0AThank%20you!",
+              },
+
+            },
+            aside: {
+              title: "What you get as a member",
+              body:
+                "Joining gives you access to initiatives, working groups, and opportunities for representation. Your contribution matters — whatever your role.",
+              bullets: {
+                b1: "Access to updates and initiatives",
+                b2: "Ways to contribute by domain",
+                b3: "Representation and network collaboration",
+              },
+              note: {
+                title: "Note",
+                body:
+                  "You can join as a member, volunteer, or domain expert — choose how you want to contribute.",
+              },
+            },
+            reasons: {
+              title: "Why register?",
+              subtitle:
+                "If any of the points below resonate with you, your place is with us.",
+              localDecision: {
+                title: "If you want to be part of local / regional decision structures",
+                body:
+                  "Be present where decisions are made. Contribute ideas, solutions, and real representation for Roma communities.",
+              },
+              domainStructures: {
+                title: "If you want to join the association’s domain structures",
+                body:
+                  "Education, mediation, rights, social work, culture — we need builders. Choose a domain and get involved.",
+              },
+              helpCommunity: {
+                title: "If you feel Roma and able to help those around you",
+                body:
+                  "Joining connects you to a network that supports, informs, and acts for the well-being of others.",
+              },
+              referenceGroup: {
+                title: "If you want to belong to a ROMA reference group",
+                body:
+                  "Belonging creates solidarity, identity, and trust. Together we are stronger and more visible.",
+              },
+            },
+            steps: {
+              title: "How registration works",
+              subtitle: "In 3 simple steps you join the association and our network.",
+              stepLabel: "Step {{step}}",
+              step1: {
+                title: "Submit your registration",
+                body:
+                  "Fill in the form and tell us how you want to contribute: member, volunteer, or expert.",
+              },
+              step2: {
+                title: "We align on the best fit",
+                body:
+                  "A representative contacts you to confirm your domain, availability, and involvement path.",
+              },
+              step3: {
+                title: "Join working groups",
+                body:
+                  "Take part in local/regional structures or domain groups and contribute to projects and initiatives.",
+              },
+            },
+            faq: {
+              title: "Frequently asked questions",
+              subtitle: "If you have more questions, contact us and we’ll reply quickly.",
+              q1: "What do I need to do to register?",
+              a1:
+                "Complete the registration form. After submission, we’ll contact you with the next steps.",
+              q2: "Do I need previous experience?",
+              a2:
+                "No. We have roles for different experience levels. What matters most is willingness to contribute.",
+              q3: "How can I contribute in practice?",
+              a3:
+                "You can help with projects, events, communication, mediation, education, community support, or representation.",
+              q4: "What are the benefits of membership?",
+              a4:
+                "Belonging, opportunities to contribute, access to the network, and the chance to influence decisions and initiatives.",
+            },
+            final: {
+              title: "Let’s build together",
+              subtitle:
+                "Your registration means one more strong voice for the community. Take the step today.",
+              primary: { label: "Register now" },
+              secondary: { label: "Contact us" },
+              disclaimer:
+                "Your data is handled confidentially. Registration confirms your interest to join as a member/volunteer/expert.",
+            },
+          },
 
 
         },
@@ -1669,8 +1997,118 @@ i18n
               A19: "Identifizierung weiterer Förderprogramme für 2026",
               A20: "Laufende Koordination und Überwachung"
             }
-          }
+          },
 
+          // ✅ ADD THIS under: de: { translation: { ... } }
+          join: {
+            hero: {
+              kicker: "Werde Teil des Wandels",
+              title: "Registriere dich und gestalte mit",
+              subtitle:
+                "Die Registrierung ist mehr als ein Formular — sie ist deine Stimme in der Gemeinschaft. Gemeinsam können wir Entscheidungen mitprägen, Projekte aufbauen und Identität sowie Würde der Roma in Europa stärken.",
+              stats: {
+                stat1: { label: "Wirkung", value: "Stimme in Entscheidungen" },
+                stat2: { label: "Engagement", value: "Rollen nach Bereichen" },
+                stat3: { label: "Zugehörigkeit", value: "Referenzgruppe" },
+              },
+            },
+            cta: {
+              primary: { label: "Jetzt registrieren", href: "/inscrie-te" },
+              secondary: { label: "Mehr über den Verein", href: "/#about" },
+              help: { label: "Brauchst du Hilfe?", href: "/#contact" },
+              emailDocuments: {
+                label: "E-Mail mit Ihren Unterlagen zur Anmeldung senden",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Anmeldung%20-%20Unterlagen&body=Hallo,%0D%0A%0D%0AIch%20m%C3%B6chte%20mich%20bei%20der%20Vereinigung%20anmelden.%0D%0AIch%20habe%20meine%20Unterlagen%20an%20diese%20E-Mail%20angeh%C3%A4ngt.%0D%0A%0D%0AName:%20%0D%0ATelefon:%20%0D%0ALand/Stadt:%20%0D%0ARolle%20(Mitglied/Freiwillige*r/Expert*in):%20%0D%0ABereich:%20%0D%0A%0D%0AVielen%20Dank!",
+              },
+
+            },
+            aside: {
+              title: "Was du als Mitglied bekommst",
+              body:
+                "Mit deiner Anmeldung erhältst du Zugang zu Initiativen, Arbeitsgruppen und Möglichkeiten zur Vertretung. Dein Beitrag zählt — in jeder Rolle.",
+              bullets: {
+                b1: "Zugang zu Informationen und Initiativen",
+                b2: "Mitwirkung nach Themenbereichen",
+                b3: "Vertretung und Zusammenarbeit im Netzwerk",
+              },
+              note: {
+                title: "Hinweis",
+                body:
+                  "Du kannst als Mitglied, freiwillige Person oder Expert*in beitreten — wähle deinen Weg der Mitwirkung.",
+              },
+            },
+            reasons: {
+              title: "Warum registrieren?",
+              subtitle:
+                "Wenn dich einer der folgenden Punkte anspricht, ist dein Platz bei uns.",
+              localDecision: {
+                title: "Wenn du Teil lokaler / regionaler Entscheidungsstrukturen sein willst",
+                body:
+                  "Sei dort, wo Entscheidungen getroffen werden. Bringe Ideen, Lösungen und echte Vertretung für Roma-Gemeinschaften ein.",
+              },
+              domainStructures: {
+                title: "Wenn du in thematischen Strukturen des Vereins mitwirken willst",
+                body:
+                  "Bildung, Mediation, Rechte, Soziales, Kultur — wir brauchen Menschen, die aufbauen. Wähle einen Bereich und mach mit.",
+              },
+              helpCommunity: {
+                title: "Wenn du dich als Roma fühlst und anderen helfen willst",
+                body:
+                  "Deine Anmeldung verbindet dich mit einem Netzwerk, das unterstützt, informiert und handelt — für die Menschen um dich herum.",
+              },
+              referenceGroup: {
+                title: "Wenn du zu einer ROMA-Referenzgruppe gehören willst",
+                body:
+                  "Zugehörigkeit schafft Solidarität, Identität und Vertrauen. Gemeinsam sind wir stärker und sichtbarer.",
+              },
+            },
+            steps: {
+              title: "So funktioniert die Anmeldung",
+              subtitle: "In 3 einfachen Schritten wirst du Teil des Vereins und Netzwerks.",
+              stepLabel: "Schritt {{step}}",
+              step1: {
+                title: "Anmeldung absenden",
+                body:
+                  "Fülle das Formular aus und sag uns, wie du dich einbringen möchtest: Mitglied, freiwillig oder Expert*in.",
+              },
+              step2: {
+                title: "Gemeinsam passend einordnen",
+                body:
+                  "Wir kontaktieren dich, um Bereich, Verfügbarkeit und Mitwirkung zu klären.",
+              },
+              step3: {
+                title: "Arbeitsgruppen beitreten",
+                body:
+                  "Nimm an lokalen/regionalen Strukturen oder Fachgruppen teil und wirke an Projekten und Initiativen mit.",
+              },
+            },
+            faq: {
+              title: "Häufige Fragen",
+              subtitle: "Weitere Fragen? Schreib uns — wir antworten schnell.",
+              q1: "Was muss ich tun, um mich zu registrieren?",
+              a1:
+                "Fülle das Anmeldeformular aus. Danach melden wir uns mit den nächsten Schritten.",
+              q2: "Brauche ich Vorerfahrung?",
+              a2:
+                "Nein. Es gibt Rollen für unterschiedliche Erfahrungsstufen. Wichtig ist die Bereitschaft mitzuwirken.",
+              q3: "Wie kann ich konkret helfen?",
+              a3:
+                "Durch Projekte, Events, Kommunikation, Mediation, Bildung, Community-Support oder Vertretung.",
+              q4: "Welche Vorteile habe ich als Mitglied?",
+              a4:
+                "Zugehörigkeit, Mitwirkungsmöglichkeiten, Zugang zum Netzwerk und Einfluss auf Entscheidungen und Initiativen.",
+            },
+            final: {
+              title: "Lass uns gemeinsam gestalten",
+              subtitle:
+                "Deine Registrierung bedeutet eine starke Stimme mehr für die Gemeinschaft. Mach den Schritt heute.",
+              primary: { label: "Jetzt registrieren" },
+              secondary: { label: "Kontakt" },
+              disclaimer:
+                "Deine Daten werden vertraulich behandelt. Die Registrierung bestätigt dein Interesse als Mitglied/Freiwillige*r/Expert*in.",
+            },
+          },
 
         },
       },
@@ -2084,7 +2522,116 @@ i18n
               A19: "Identification de programmes de soutien pour 2026",
               A20: "Coordination et suivi continus"
             }
-          }
+          },
+          join: {
+            hero: {
+              kicker: "Devenez acteur du changement",
+              title: "Inscrivez-vous et construisons ensemble",
+              subtitle:
+                "S’inscrire, ce n’est pas seulement remplir un formulaire — c’est faire entendre votre voix. Ensemble, nous pouvons influencer les décisions, créer des projets et renforcer l’identité et la dignité des Roms en Europe.",
+              stats: {
+                stat1: { label: "Impact", value: "Une voix dans les décisions" },
+                stat2: { label: "Engagement", value: "Rôles par domaine" },
+                stat3: { label: "Appartenance", value: "Groupe de référence" },
+              },
+            },
+            cta: {
+              primary: { label: "S’inscrire maintenant", href: "/inscrie-te" },
+              secondary: { label: "Découvrir l’association", href: "/#about" },
+              help: { label: "Besoin d’aide ?", href: "/#contact" },
+              emailDocuments: {
+                label: "Envoyer un e-mail avec vos documents d’inscription",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Inscription%20-%20Documents&body=Bonjour,%0D%0A%0D%0AJe%20souhaite%20m%E2%80%99inscrire%20%C3%A0%20l%E2%80%99association.%0D%0AJe%20joins%20mes%20documents%20%C3%A0%20cet%20e-mail.%0D%0A%0D%0ANom:%20%0D%0AT%C3%A9l%C3%A9phone:%20%0D%0APays/Ville:%20%0D%0AR%C3%B4le%20(membre/b%C3%A9n%C3%A9vole/expert):%20%0D%0ADomaine:%20%0D%0A%0D%0AMerci!",
+              },
+
+            },
+            aside: {
+              title: "Ce que vous obtenez",
+              body:
+                "Votre inscription vous donne accès aux initiatives, groupes de travail et opportunités de représentation. Votre contribution compte — quel que soit votre rôle.",
+              bullets: {
+                b1: "Accès aux informations et initiatives",
+                b2: "Participation par domaines",
+                b3: "Représentation et réseau",
+              },
+              note: {
+                title: "Note",
+                body:
+                  "Vous pouvez vous inscrire comme membre, bénévole ou expert — choisissez votre manière de contribuer.",
+              },
+            },
+            reasons: {
+              title: "Pourquoi s’inscrire ?",
+              subtitle:
+                "Si l’un de ces points vous parle, votre place est avec nous.",
+              localDecision: {
+                title: "Si vous voulez faire partie des structures locales / régionales de décision",
+                body:
+                  "Être présent là où les décisions se prennent. Apporter des idées, des solutions et une représentation réelle des communautés roms.",
+              },
+              domainStructures: {
+                title: "Si vous voulez intégrer les structures de l’association par domaine",
+                body:
+                  "Éducation, médiation, droits, social, culture — nous avons besoin de bâtisseurs. Choisissez un domaine et impliquez-vous.",
+              },
+              helpCommunity: {
+                title: "Si vous vous sentez Rom et capable d’aider les autres",
+                body:
+                  "Votre inscription vous relie à un réseau qui soutient, informe et agit pour le bien commun.",
+              },
+              referenceGroup: {
+                title: "Si vous voulez appartenir à un GROUPE DE RÉFÉRENCE ROM",
+                body:
+                  "L’appartenance crée solidarité, identité et confiance. Ensemble, nous sommes plus forts et plus visibles.",
+              },
+            },
+            steps: {
+              title: "Comment ça marche",
+              subtitle: "En 3 étapes simples, vous rejoignez l’association et notre réseau.",
+              stepLabel: "Étape {{step}}",
+              step1: {
+                title: "Envoyer votre inscription",
+                body:
+                  "Remplissez le formulaire et indiquez votre rôle : membre, bénévole ou expert.",
+              },
+              step2: {
+                title: "Aligner la meilleure implication",
+                body:
+                  "Un représentant vous contacte pour confirmer le domaine, la disponibilité et la manière de participer.",
+              },
+              step3: {
+                title: "Rejoindre les groupes de travail",
+                body:
+                  "Participez aux structures locales/régionales ou aux groupes thématiques et contribuez aux projets.",
+              },
+            },
+            faq: {
+              title: "Questions fréquentes",
+              subtitle: "Une question ? Contactez-nous — réponse rapide.",
+              q1: "Que dois-je faire pour m’inscrire ?",
+              a1:
+                "Remplissez le formulaire d’inscription. Ensuite, nous vous contacterons pour la suite.",
+              q2: "Faut-il avoir de l’expérience ?",
+              a2:
+                "Non. Il existe des rôles pour tous les niveaux. L’essentiel est l’envie de s’impliquer.",
+              q3: "Comment puis-je contribuer concrètement ?",
+              a3:
+                "Projets, événements, communication, médiation, éducation, soutien communautaire ou représentation.",
+              q4: "Quels sont les bénéfices de l’adhésion ?",
+              a4:
+                "Appartenance, opportunités d’engagement, accès au réseau et influence sur les décisions et initiatives.",
+            },
+            final: {
+              title: "Construisons ensemble",
+              subtitle:
+                "Votre inscription, c’est une voix forte de plus pour la communauté. Faites le pas aujourd’hui.",
+              primary: { label: "S’inscrire maintenant" },
+              secondary: { label: "Nous contacter" },
+              disclaimer:
+                "Vos données sont traitées de manière confidentielle. L’inscription confirme votre intérêt à rejoindre l’association.",
+            },
+          },
 
         },
       },
@@ -2499,8 +3046,116 @@ i18n
               A19: "Identificazione di programmi di supporto per il 2026",
               A20: "Coordinamento e monitoraggio continui"
             }
-          }
+          },
+          join: {
+            hero: {
+              kicker: "Diventa parte del cambiamento",
+              title: "Iscriviti e costruiamo insieme",
+              subtitle:
+                "Iscriversi non è solo compilare un modulo — è dare voce alla comunità. Insieme possiamo influenzare decisioni, creare progetti e rafforzare identità e dignità dei Rom in Europa.",
+              stats: {
+                stat1: { label: "Impatto", value: "Voce nelle decisioni" },
+                stat2: { label: "Partecipazione", value: "Ruoli per settore" },
+                stat3: { label: "Appartenenza", value: "Gruppo di riferimento" },
+              },
+            },
+            cta: {
+              primary: { label: "Iscriviti ora", href: "/inscrie-te" },
+              secondary: { label: "Scopri l’associazione", href: "/#about" },
+              help: { label: "Hai bisogno di aiuto?", href: "/#contact" },
+              emailDocuments: {
+                label: "Invia un’email con i documenti per l’iscrizione",
+                href:
+                  "mailto:medierecomunitara2025@gmail.com?subject=Iscrizione%20-%20Documenti&body=Ciao,%0D%0A%0D%0AVorrei%20iscrivermi%20all%E2%80%99associazione.%0D%0AHo%20allegato%20i%20miei%20documenti%20a%20questa%20email.%0D%0A%0D%0ANome:%20%0D%0ATelefono:%20%0D%0APaese/Citt%C3%A0:%20%0D%0ARuolo%20(membro/volontario/esperto):%20%0D%0ASettore:%20%0D%0A%0D%0AGrazie!",
+              },
 
+            },
+            aside: {
+              title: "Cosa ottieni",
+              body:
+                "L’iscrizione ti dà accesso a iniziative, gruppi di lavoro e opportunità di rappresentanza. Il tuo contributo conta — qualunque sia il tuo ruolo.",
+              bullets: {
+                b1: "Accesso a informazioni e iniziative",
+                b2: "Partecipazione per settori",
+                b3: "Rappresentanza e collaborazione in rete",
+              },
+              note: {
+                title: "Nota",
+                body:
+                  "Puoi iscriverti come membro, volontario o esperto — scegli come contribuire.",
+              },
+            },
+            reasons: {
+              title: "Perché iscriversi?",
+              subtitle:
+                "Se ti riconosci in uno di questi punti, il tuo posto è con noi.",
+              localDecision: {
+                title: "Se vuoi far parte delle strutture locali / regionali decisionali",
+                body:
+                  "Essere presenti dove si prendono decisioni. Portare idee, soluzioni e rappresentanza reale per le comunità rom.",
+              },
+              domainStructures: {
+                title: "Se vuoi far parte delle strutture dell’associazione per settore",
+                body:
+                  "Educazione, mediazione, diritti, sociale, cultura — abbiamo bisogno di persone che costruiscono. Scegli un settore e partecipa.",
+              },
+              helpCommunity: {
+                title: "Se ti senti Rom e capace di aiutare il prossimo",
+                body:
+                  "Con l’iscrizione entri in una rete che sostiene, informa e agisce per il bene comune.",
+              },
+              referenceGroup: {
+                title: "Se vuoi appartenere a un GRUPPO DI RIFERIMENTO ROM",
+                body:
+                  "L’appartenenza crea solidarietà, identità e fiducia. Insieme siamo più forti e più visibili.",
+              },
+            },
+            steps: {
+              title: "Come funziona l’iscrizione",
+              subtitle: "In 3 semplici passi entri nell’associazione e nella rete.",
+              stepLabel: "Passo {{step}}",
+              step1: {
+                title: "Invia l’iscrizione",
+                body:
+                  "Compila il modulo e indica il tuo ruolo: membro, volontario o esperto.",
+              },
+              step2: {
+                title: "Allineiamo il percorso migliore",
+                body:
+                  "Un rappresentante ti contatta per confermare settore, disponibilità e modalità di partecipazione.",
+              },
+              step3: {
+                title: "Entra nei gruppi di lavoro",
+                body:
+                  "Partecipa alle strutture locali/regionali o ai gruppi per settore e contribuisci a progetti e iniziative.",
+              },
+            },
+            faq: {
+              title: "Domande frequenti",
+              subtitle: "Hai altre domande? Contattaci — rispondiamo velocemente.",
+              q1: "Cosa devo fare per iscrivermi?",
+              a1:
+                "Compila il modulo di iscrizione. Dopo l’invio, ti contatteremo per i prossimi passi.",
+              q2: "Serve esperienza precedente?",
+              a2:
+                "No. Ci sono ruoli per diversi livelli di esperienza. Conta soprattutto la voglia di contribuire.",
+              q3: "Come posso contribuire concretamente?",
+              a3:
+                "Progetti, eventi, comunicazione, mediazione, educazione, supporto comunitario o rappresentanza.",
+              q4: "Quali vantaggi ho come membro?",
+              a4:
+                "Appartenenza, opportunità di partecipazione, accesso alla rete e possibilità di influenzare decisioni e iniziative.",
+            },
+            final: {
+              title: "Costruiamo insieme",
+              subtitle:
+                "La tua iscrizione significa una voce forte in più per la comunità. Fai il passo oggi.",
+              primary: { label: "Iscriviti ora" },
+              secondary: { label: "Contattaci" },
+              disclaimer:
+                "I tuoi dati sono trattati in modo riservato. L’iscrizione conferma l’interesse a partecipare come membro/volontario/esperto.",
+            },
+          },
 
         },
       },

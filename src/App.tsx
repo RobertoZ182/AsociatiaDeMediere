@@ -8,6 +8,7 @@ import ProgrameSuport from './pages/ProgrameSuport';
 import Transparenta from './pages/Transparenta';
 import FiiDonator from './pages/FiiDonator';
 import Header from './components/Header';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         
       </Routes>
-    
+    <Footer />
     </>
   );
 }

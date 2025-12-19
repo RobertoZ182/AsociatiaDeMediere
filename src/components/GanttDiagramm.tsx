@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-type Range = { start: number; end: number }; // inclusive weeks
+type Range = { start: number; end: number }; 
 type Task = {
   id: string;
-  nameKey: string; // i18n key instead of raw text
+  nameKey: string; 
   ranges: Range[];
   color: "light" | "dark";
 };
@@ -66,10 +66,10 @@ export default function Gantt2025Homepage() {
 
           <div className="flex flex-wrap items-center gap-3 text-xs text-neutral-600">
             <span className="inline-flex items-center gap-2">
-              <span className="h-3 w-5 rounded bg-[#92D050]" /> {t("gantt.legend.activity")}
+              <span className="h-3 w-5 rounded bg-[#0900b0ff]" /> {t("gantt.legend.activity")}
             </span>
             <span className="inline-flex items-center gap-2">
-              <span className="h-3 w-5 rounded bg-[#00B050]" /> {t("gantt.legend.milestone")}
+              <span className="h-3 w-5 rounded bg-[#2c7dc4ff]" /> {t("gantt.legend.milestone")}
             </span>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function Gantt2025Homepage() {
                     const r = clampRange(rr);
                     const leftPct = ((r.start - 1) / WEEKS) * 100;
                     const widthPct = ((r.end - r.start + 1) / WEEKS) * 100;
-                    const bg = task.color === "dark" ? "#00B050" : "#92D050";
+                    const bg = task.color === "dark" ? "#0900b0ff" : "#2c7dc4ff";
                     return (
                       <div
                         key={idx}
@@ -204,7 +204,7 @@ export default function Gantt2025Homepage() {
                       >
                         {task.ranges.map((rr, idx) => {
                           const r = clampRange(rr);
-                          const bg = task.color === "dark" ? "#00B050" : "#2c7dc4ff";
+                          const bg = task.color === "dark" ? "#0900b0ff" : "#2c7dc4ff";
                           return (
                             <div
                               key={idx}

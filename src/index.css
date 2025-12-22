@@ -197,19 +197,44 @@ html {
 }
 
 /* Custom scrollbar */
+/* Golden / aristocratic scrollbar (matches your black + amber/gold palette) */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: rgba(0, 0, 0, 0.85);
+  border-left: 1px solid rgba(212, 175, 55, 0.18); /* subtle gold edge */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(45deg, #667eea, #764ba2);
-  border-radius: 4px;
+  background: linear-gradient(
+    45deg,
+    rgba(212, 175, 55, 0.85),   /* gold */
+    rgba(255, 215, 128, 0.95),  /* warm highlight */
+    rgba(212, 175, 55, 0.75)    /* gold */
+  );
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.10),
+    0 0 14px rgba(212, 175, 55, 0.18);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(45deg, #764ba2, #667eea);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 215, 128, 0.98),
+    rgba(212, 175, 55, 0.95),
+    rgba(255, 215, 128, 0.90)
+  );
+  border-color: rgba(255, 215, 128, 0.55);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+    0 0 18px rgba(212, 175, 55, 0.26);
+}
+
+/* Optional: corner color (for horizontal + vertical scrollbars together) */
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0.9);
 }

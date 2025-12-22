@@ -19,6 +19,121 @@ i18n
       // 🌿 ROMANI (Romani Chib)
       rom: {
         translation: {
+          donor: {
+            hero: {
+              kicker: "Aven Donatori",
+              title: "Sastipe le Komunitateske",
+              subtitle:
+                "Alos sar te ajiutis. Savorre kontribuciya anel klaritet, suport thaj impact.",
+            },
+            types: {
+              time: "Donis TIMP",
+              skills: "Donis KOMPETENȚE",
+              financial: "Donis resurse FINANCIARE",
+              material: "Donis resurse MATERIALE",
+            },
+            typePicker: {
+              label: "Alos o tipo le donatoresko",
+              helper: "Tu aloses: {{type}}. O formularo avena adaptime.",
+            },
+            categories: {
+              title: "9.1 – Kategorii le donatorenge",
+              subtitle: "Alos o modo sar te des ajutor, sar so tu šaj.",
+              items: {
+                time: {
+                  title: "Donis timp",
+                  body: "Voluntariat ande aktivitetura, eventura, logistika, vai suport le komunitatesko.",
+                },
+                skills: {
+                  title: "Donis kompetențe",
+                  body: "Del profesionalo džanipen (juridiko, tech, komunikacia, training, mentoring).",
+                },
+                financial: {
+                  title: "Donis resurse financiare",
+                  body: "Suportirinis e projektura andar karta. Opral e drepta le donatoreske avena pe email.",
+                },
+                material: {
+                  title: "Donis resurse materiale",
+                  body: "Donis butya/materialura. Amen koordinisam e anglal thaj e distribuția.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Dreptura so avel le DONATORESKE",
+              subtitle: "Sar donator, tu avel tuqe drepta thaj transparența.",
+              items: {
+                r1: "Drept te avel tuqe akses la rapoarte thaj informații",
+                r2: "Drept te directionis o ajutor",
+                r3: "Drept te avel tuqe intrare ande structura lokală le deciziake",
+                r4: "Drept te mangis suport specializat",
+              },
+              emailNote: {
+                title: "Pe email",
+                body: "Savorre donatora trubun te den email te primin e drepta thaj aktualizări.",
+              },
+            },
+            form: {
+              title: "Formularo le donatoresko",
+              subtitle:
+                "Pher o date thaj bičhal o formularo pala o tipo le donaciyako.",
+              common: {
+                fullName: { label: "Namo komplet", placeholder: "Tuqo namo" },
+                email: {
+                  label: "Email",
+                  placeholder: "namo@email.com",
+                  note: "Trubul te avel, te primis e drepta le donatoreske pe email.",
+                },
+                phone: { label: "Telefon (opțional)", placeholder: "+40 ..." },
+                successMessage: "Nais tuke! Amen primdam tuqo mesaj.",
+              },
+              messageForm: {
+                info: "Pala {{type}}, bičhal o mesaj thaj kontaktura. Amen phendas pe email.",
+                message: {
+                  label: "Mesaj",
+                  placeholder:
+                    "Phen amen sar tu šaj te ajiutis thaj so si tuqi disponibilitate.",
+                },
+                submit: "Biĉhal o mesaj",
+              },
+              payment: {
+                info: "Pala {{type}}, del o email thaj e date le plăteske. E drepta avena pe email.",
+                progress: {
+                  label: "Progres le donaciyengo",
+                  value: "Avri donime: {{donated}} / Țintă: {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "Akava progres šaj te avel conectime la date live andar backend.",
+                },
+                amount: {
+                  label: "Suma",
+                  note: "Alos e suma so tu šaj.",
+                },
+                material: {
+                  label: "So resurse materiale tu mangas te dones?",
+                  placeholder: "ex: gadrura, xaben, echipamente, rechizite",
+                  note: "Amen kontaktisam tut pe email te koordinisam.",
+                },
+                cardSection: {
+                  title: "Plata andar karta",
+                  subtitle:
+                    "Demonstrativ UI. Trubul te avel conectime la procesator real (Stripe/Netopia/etc.).",
+                  note: "Na procesin e date brute le kartake bi procesator certificat thaj backend sigur.",
+                },
+                card: {
+                  name: "Namo pe karta",
+                  namePlaceholder: "Namo Prenumo",
+                  number: "Numero le kartako",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Expiracia",
+                  expPlaceholder: "LL/AA",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Plătește andar karta",
+                successPaymentMock:
+                  "Demonstrativ: conectis procesator real te finalizis.",
+              },
+            },
+          },
           header: {
             title: "Asociatia le Medijarelpe Comunitară",
             subtitle: "Europake e Romengo",
@@ -224,6 +339,7 @@ i18n
                     "Reprezentantura le asociațieshke shaj te konsultinen ande konsilii locale pe tema siguritate publiko. Monitoricia le interveniciura MAI ande sensibile zonura.",
                 },
               },
+
             },
           },
           team: {
@@ -585,6 +701,194 @@ i18n
       // 🇷🇴 ROMANIAN
       ro: {
         translation: {
+          support: {
+            hero: {
+              kicker: "Programe de suport",
+              title: "Programele de suport ale asociației",
+              subtitle:
+                "Sprijin practic, informații verificate și conectare cu oameni și organizații din zona ta.",
+              ctaPrograms: "Vezi programele",
+              ctaGallery: "Vezi activitatea",
+            },
+            aside: {
+              title: "Cum te ajutăm",
+              body:
+                "Îți oferim îndrumare și conectare rapidă cu resurse locale: autorități, specialiști, comunități și ONG-uri.",
+              b1: "Ghidare pe țară / zonă / regiune",
+              b2: "Contacte utile și suport specializat",
+              b3: "Conectare la resurse reale din teren",
+              noteTitle: "Important",
+              noteBody:
+                "Recomandăm să ne trimiți locația (țară/oraș) pentru a direcționa suportul cât mai exact.",
+            },
+            programs: {
+              title: "Programe de suport",
+              subtitle:
+                "Mai jos sunt principalele direcții de sprijin. Te putem orienta în funcție de situația ta.",
+              p71: {
+                title: "7.1 Asistență specializată în funcție de țară / zonă / regiune",
+                body:
+                  "Identificăm sprijinul potrivit în funcție de locație: instituții, servicii, proceduri și soluții aplicabile în arealul tău.",
+              },
+              p72: {
+                title: "7.2 Date de contact: autorități locale și specialiști",
+                body:
+                  "Punem la dispoziție (sau te ghidăm către) contacte relevante: autorități, mediatori, servicii sociale, avocați, psihologi, consilieri.",
+              },
+              p73: {
+                title: "7.3 Cazare și sprijin la alți romi din zonă / regiune",
+                body:
+                  "Facilităm conectarea la rețele de sprijin comunitar pentru cazare temporară și suport de integrare (în limita posibilităților locale).",
+              },
+              p74: {
+                title: "7.4 Locuri de muncă imediate, sezoniere sau permanente",
+                body:
+                  "Te ajutăm să identifici oportunități de muncă potrivite: urgență, sezonier, sau angajare stabilă, în funcție de profil și regiune.",
+              },
+              p75: {
+                title: "7.5 ONG-uri și voluntari din arealul de interes și locuire",
+                body:
+                  "Conectăm beneficiarii cu ONG-uri și voluntari relevanți, pentru sprijin practic, juridic, social sau logistic în zona de locuire.",
+              },
+            },
+            cta: {
+              title: "Ai nevoie de suport acum?",
+              body:
+                "Trimite-ne un mesaj cu țara/orașul și situația ta, iar echipa noastră îți răspunde cu pași concreți.",
+              button: "Contactează-ne",
+            },
+            gallery: {
+              title: "Galerie – activități și întâlniri",
+              subtitle: "Imagini din întâlniri, sesiuni de informare și consultări comunitare.",
+              caption: "Activitate din teren",
+              note: "Poți naviga cu săgețile sau cu tastele stânga/dreapta când caruselul e selectat.",
+              photoAlt: "Fotografie din activitatea asociației",
+              ariaLabel: "Carusel cu fotografii din activitatea asociației",
+              prev: "Imaginea anterioară",
+              next: "Imaginea următoare",
+              goTo: "Mergi la imaginea {{index}}",
+              counter: "Imaginea {{current}} din {{total}}",
+            },
+          },
+
+          donor: {
+            hero: {
+              kicker: "Fii Donator",
+              title: "Susține Comunitatea",
+              subtitle:
+                "Alege cum vrei să ajuți. Fiecare contribuție aduce claritate, sprijin și impact.",
+            },
+            types: {
+              time: "Donează TIMP",
+              skills: "Donează COMPETENȚE",
+              financial: "Donează resurse FINANCIARE",
+              material: "Donează resurse MATERIALE",
+            },
+            typePicker: {
+              label: "Alege tipul de donator",
+              helper:
+                "Ai ales: {{type}}. Formularul de mai jos se adaptează automat.",
+            },
+            categories: {
+              title: "9.1 – Categorii de donatori",
+              subtitle:
+                "Alege forma de sprijin care se potrivește timpului și resurselor tale.",
+              items: {
+                time: {
+                  title: "Donează timp",
+                  body: "Voluntariat pentru activități, evenimente, logistică sau sprijin comunitar.",
+                },
+                skills: {
+                  title: "Donează competențe",
+                  body: "Oferă expertiză profesională (juridic, tech, comunicare, training, mentoring).",
+                },
+                financial: {
+                  title: "Donează resurse financiare",
+                  body: "Susține proiectele prin donație cu cardul. Vei primi drepturile de donator pe email.",
+                },
+                material: {
+                  title: "Donează resurse materiale",
+                  body: "Donează bunuri/materiale. Coordonăm preluarea și direcționarea ajutorului.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Drepturi câștigate de DONATOR",
+              subtitle:
+                "Ca donator, ai acces la drepturi și instrumente de transparență.",
+              items: {
+                r1: "Drept de acces la rapoarte și informații",
+                r2: "Dreptul de a direcționa ajutorul",
+                r3: "Dreptul de a accede în structurile locale de decizie",
+                r4: "Dreptul de a cere sprijin specializat",
+              },
+              emailNote: {
+                title: "Transmitere pe email",
+                body: "Toți donatorii trebuie să lase un email pentru a primi drepturile și actualizările.",
+              },
+            },
+            form: {
+              title: "Formular donator",
+              subtitle:
+                "Completează datele și trimite formularul potrivit tipului tău de donație.",
+              common: {
+                fullName: { label: "Nume complet", placeholder: "Numele tău" },
+                email: {
+                  label: "Email",
+                  placeholder: "nume@email.com",
+                  note: "Obligatoriu pentru a primi drepturile de donator pe email.",
+                },
+                phone: { label: "Telefon (opțional)", placeholder: "+40 ..." },
+                successMessage: "Mulțumim! Am primit mesajul tău.",
+              },
+              messageForm: {
+                info: "Pentru {{type}}, trimite un mesaj și date de contact. Îți răspundem pe email.",
+                message: {
+                  label: "Mesaj",
+                  placeholder: "Spune-ne cum poți ajuta și disponibilitatea ta.",
+                },
+                submit: "Trimite mesajul",
+              },
+              payment: {
+                info: "Pentru {{type}}, lasă email-ul și datele de plată. Vei primi drepturile de donator pe email.",
+                progress: {
+                  label: "Progres donații",
+                  value: "S-a donat până acum: {{donated}} / Țintă: {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "Acest progres poate fi conectat la date live din backend.",
+                },
+                amount: {
+                  label: "Suma donată",
+                  note: "Alege o sumă cu care te simți confortabil.",
+                },
+                material: {
+                  label: "Ce resurse materiale vrei să donezi?",
+                  placeholder: "ex: haine, alimente, echipamente, rechizite",
+                  note: "Te contactăm pe email pentru detalii și coordonare.",
+                },
+                cardSection: {
+                  title: "Plată cu cardul",
+                  subtitle:
+                    "UI demonstrativ. Conectează la un procesator real (Stripe/Netopia/etc.).",
+                  note: "Nu procesa date brute de card fără un furnizor certificat și backend securizat.",
+                },
+                card: {
+                  name: "Nume pe card",
+                  namePlaceholder: "Nume Prenume",
+                  number: "Număr card",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Data expirării",
+                  expPlaceholder: "LL/AA",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Plătește cu cardul",
+                successPaymentMock:
+                  "Flux de plată demonstrativ: conectează un procesator real pentru finalizare.",
+              },
+            },
+          },
+
           header: {
             title: "Asociația de Mediere Comunitară",
             subtitle: "Europeană a Romilor",
@@ -1151,6 +1455,123 @@ i18n
       // 🇬🇧 ENGLISH
       en: {
         translation: {
+          donor: {
+            hero: {
+              kicker: "Be a Donor",
+              title: "Support the Community",
+              subtitle:
+                "Choose how you want to help. Every contribution brings clarity, support, and impact.",
+            },
+            types: {
+              time: "Donate Time",
+              skills: "Donate Skills",
+              financial: "Donate Financial Resources",
+              material: "Donate Material Resources",
+            },
+            typePicker: {
+              label: "Select donor type",
+              helper:
+                "You selected: {{type}}. The form below will adapt to your choice.",
+            },
+            categories: {
+              title: "9.1 – Donor categories",
+              subtitle:
+                "Pick the kind of support that matches your availability and resources.",
+              items: {
+                time: {
+                  title: "Donate Time",
+                  body: "Volunteer time for activities, events, logistics, or community support.",
+                },
+                skills: {
+                  title: "Donate Skills",
+                  body: "Offer professional expertise (legal, tech, communication, training, mentoring).",
+                },
+                financial: {
+                  title: "Donate Financial Resources",
+                  body: "Support projects with a card donation. You will receive donor rights by email.",
+                },
+                material: {
+                  title: "Donate Material Resources",
+                  body: "Offer goods or materials. We can coordinate collection and allocation.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Donor rights earned",
+              subtitle:
+                "As a donor, you gain access to specific rights and transparency tools.",
+              items: {
+                r1: "Right of access to reports and information",
+                r2: "Right to direct the help where it is needed",
+                r3: "Right to join local decision-making structures",
+                r4: "Right to request specialized support",
+              },
+              emailNote: {
+                title: "Email delivery",
+                body: "All donors must provide an email address to receive these rights and updates.",
+              },
+            },
+            form: {
+              title: "Donor form",
+              subtitle:
+                "Fill in your details and submit the appropriate form based on your donor type.",
+              common: {
+                fullName: { label: "Full name", placeholder: "Your name" },
+                email: {
+                  label: "Email",
+                  placeholder: "name@email.com",
+                  note: "Required for receiving donor rights by email.",
+                },
+                phone: { label: "Phone (optional)", placeholder: "+40 ..." },
+                successMessage: "Thank you! We received your message.",
+              },
+              messageForm: {
+                info: "For {{type}}, please send a message and contact details. We will reply by email.",
+                message: {
+                  label: "Message",
+                  placeholder: "Tell us how you can help and your availability.",
+                },
+                submit: "Send message",
+              },
+              payment: {
+                info: "For {{type}}, please provide your email and payment details. You will receive donor rights by email.",
+                progress: {
+                  label: "Donation progress",
+                  value: "Donated so far: {{donated}} / Goal: {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "This progress can be connected to live data from your backend.",
+                },
+                amount: {
+                  label: "Donation amount",
+                  note: "Choose an amount you are comfortable with.",
+                },
+                material: {
+                  label: "What materials do you want to donate?",
+                  placeholder: "e.g., clothes, food, equipment, stationery",
+                  note: "We will contact you by email to coordinate details.",
+                },
+                cardSection: {
+                  title: "Card payment",
+                  subtitle:
+                    "This is a UI placeholder. Connect it to a real payment provider (Stripe/Netopia/etc.).",
+                  note: "Do not process raw card data without a certified payment provider and secure backend.",
+                },
+                card: {
+                  name: "Name on card",
+                  namePlaceholder: "Name Surname",
+                  number: "Card number",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Expiry date",
+                  expPlaceholder: "MM/YY",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Pay by card",
+                successPaymentMock:
+                  "Payment flow placeholder: connect a real payment provider to complete this action.",
+              },
+            },
+          },
           header: {
             title: "Community Mediation Association",
             subtitle: "European Roma",
@@ -1719,6 +2140,123 @@ i18n
       // 🇩🇪 GERMAN
       de: {
         translation: {
+          donor: {
+            hero: {
+              kicker: "Werde Spender:in",
+              title: "Unterstütze die Gemeinschaft",
+              subtitle:
+                "Wähle, wie du helfen möchtest. Jeder Beitrag schafft Klarheit, Unterstützung und Wirkung.",
+            },
+            types: {
+              time: "Zeit spenden",
+              skills: "Kompetenzen spenden",
+              financial: "Finanzielle Mittel spenden",
+              material: "Sachspenden leisten",
+            },
+            typePicker: {
+              label: "Spendertyp auswählen",
+              helper:
+                "Ausgewählt: {{type}}. Das Formular passt sich entsprechend an.",
+            },
+            categories: {
+              title: "9.1 – Spenderkategorien",
+              subtitle:
+                "Wähle die Art der Unterstützung, die zu deinen Ressourcen passt.",
+              items: {
+                time: {
+                  title: "Zeit spenden",
+                  body: "Freiwillige Zeit für Aktivitäten, Events, Logistik oder Community-Support.",
+                },
+                skills: {
+                  title: "Kompetenzen spenden",
+                  body: "Fachwissen anbieten (Recht, Tech, Kommunikation, Training, Mentoring).",
+                },
+                financial: {
+                  title: "Finanzielle Mittel spenden",
+                  body: "Projekte per Kartenzahlung unterstützen. Spenderrechte kommen per E-Mail.",
+                },
+                material: {
+                  title: "Sachspenden leisten",
+                  body: "Güter oder Materialien spenden. Wir koordinieren Abholung und Verteilung.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Erworbenen Spenderrechte",
+              subtitle: "Als Spender:in erhältst du Rechte und Transparenz.",
+              items: {
+                r1: "Recht auf Zugang zu Berichten und Informationen",
+                r2: "Recht, die Hilfe zu lenken",
+                r3: "Recht, in lokale Entscheidungsstrukturen einzutreten",
+                r4: "Recht, spezialisierte Unterstützung anzufordern",
+              },
+              emailNote: {
+                title: "Zustellung per E-Mail",
+                body: "Alle Spender:innen müssen eine E-Mail-Adresse angeben, um Rechte und Updates zu erhalten.",
+              },
+            },
+            form: {
+              title: "Spendenformular",
+              subtitle:
+                "Gib deine Daten ein und sende das passende Formular ab.",
+              common: {
+                fullName: { label: "Vollständiger Name", placeholder: "Dein Name" },
+                email: {
+                  label: "E-Mail",
+                  placeholder: "name@email.com",
+                  note: "Erforderlich, um Spenderrechte per E-Mail zu erhalten.",
+                },
+                phone: { label: "Telefon (optional)", placeholder: "+49 ..." },
+                successMessage: "Danke! Wir haben deine Nachricht erhalten.",
+              },
+              messageForm: {
+                info: "Für {{type}}: Bitte sende eine Nachricht und Kontaktdaten. Wir antworten per E-Mail.",
+                message: {
+                  label: "Nachricht",
+                  placeholder: "Wie kannst du helfen? Verfügbarkeit etc.",
+                },
+                submit: "Nachricht senden",
+              },
+              payment: {
+                info: "Für {{type}}: Bitte E-Mail und Zahlungsdetails angeben. Spenderrechte kommen per E-Mail.",
+                progress: {
+                  label: "Spendenfortschritt",
+                  value: "Bisher gespendet: {{donated}} / Ziel: {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "Der Fortschritt kann mit Live-Daten aus dem Backend verbunden werden.",
+                },
+                amount: {
+                  label: "Spendenbetrag",
+                  note: "Wähle einen Betrag, der für dich passt.",
+                },
+                material: {
+                  label: "Welche Sachspenden möchtest du geben?",
+                  placeholder: "z.B. Kleidung, Lebensmittel, Ausrüstung, Schulmaterial",
+                  note: "Wir kontaktieren dich per E-Mail zur Abstimmung.",
+                },
+                cardSection: {
+                  title: "Kartenzahlung",
+                  subtitle:
+                    "UI-Platzhalter. Bitte mit einem echten Zahlungsanbieter verbinden (Stripe/Netopia/etc.).",
+                  note: "Keine Roh-Kartendaten ohne zertifizierten Anbieter und sicheren Backend-Prozess verarbeiten.",
+                },
+                card: {
+                  name: "Name auf der Karte",
+                  namePlaceholder: "Vorname Nachname",
+                  number: "Kartennummer",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Ablaufdatum",
+                  expPlaceholder: "MM/JJ",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Mit Karte zahlen",
+                successPaymentMock:
+                  "Zahlungsablauf-Platzhalter: Bitte echten Zahlungsanbieter integrieren.",
+              },
+            },
+          },
+
           header: {
             title: "Gemeinschaftliche Mediationsvereinigung",
             subtitle: "Europäische Roma",
@@ -2288,6 +2826,124 @@ i18n
       // 🇫🇷 FRENCH
       fr: {
         translation: {
+          donor: {
+            hero: {
+              kicker: "Devenir Donateur",
+              title: "Soutenir la Communauté",
+              subtitle:
+                "Choisissez votre manière d’aider. Chaque contribution apporte clarté, soutien et impact.",
+            },
+            types: {
+              time: "Donner du TEMPS",
+              skills: "Donner des COMPÉTENCES",
+              financial: "Donner des ressources FINANCIÈRES",
+              material: "Donner des ressources MATÉRIELLES",
+            },
+            typePicker: {
+              label: "Choisir le type de donateur",
+              helper:
+                "Vous avez choisi : {{type}}. Le formulaire s’adapte automatiquement.",
+            },
+            categories: {
+              title: "9.1 – Catégories de donateurs",
+              subtitle:
+                "Choisissez le type de soutien qui correspond à vos possibilités.",
+              items: {
+                time: {
+                  title: "Donner du temps",
+                  body: "Bénévolat pour activités, événements, logistique ou soutien communautaire.",
+                },
+                skills: {
+                  title: "Donner des compétences",
+                  body: "Proposer une expertise (juridique, tech, communication, formation, mentorat).",
+                },
+                financial: {
+                  title: "Donner des ressources financières",
+                  body: "Soutenir les projets par don par carte. Vous recevrez vos droits par email.",
+                },
+                material: {
+                  title: "Donner des ressources matérielles",
+                  body: "Donner des biens/matériels. Nous coordonnons la collecte et l’affectation.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Droits acquis du DONATEUR",
+              subtitle:
+                "En tant que donateur, vous obtenez des droits et des outils de transparence.",
+              items: {
+                r1: "Droit d’accès aux rapports et aux informations",
+                r2: "Droit d’orienter l’aide",
+                r3: "Droit d’intégrer les structures locales de décision",
+                r4: "Droit de demander un soutien spécialisé",
+              },
+              emailNote: {
+                title: "Envoi par email",
+                body: "Tous les donateurs doivent fournir un email pour recevoir ces droits et mises à jour.",
+              },
+            },
+            form: {
+              title: "Formulaire donateur",
+              subtitle:
+                "Renseignez vos informations et envoyez le formulaire selon votre type de don.",
+              common: {
+                fullName: { label: "Nom complet", placeholder: "Votre nom" },
+                email: {
+                  label: "Email",
+                  placeholder: "nom@email.com",
+                  note: "Obligatoire pour recevoir les droits du donateur par email.",
+                },
+                phone: { label: "Téléphone (optionnel)", placeholder: "+33 ..." },
+                successMessage: "Merci ! Nous avons reçu votre message.",
+              },
+              messageForm: {
+                info: "Pour {{type}}, envoyez un message et vos coordonnées. Nous répondrons par email.",
+                message: {
+                  label: "Message",
+                  placeholder:
+                    "Expliquez comment vous pouvez aider et vos disponibilités.",
+                },
+                submit: "Envoyer le message",
+              },
+              payment: {
+                info: "Pour {{type}}, indiquez votre email et vos informations de paiement. Les droits seront envoyés par email.",
+                progress: {
+                  label: "Progression des dons",
+                  value: "Déjà donné : {{donated}} / Objectif : {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "Cette progression peut être connectée à des données live du backend.",
+                },
+                amount: {
+                  label: "Montant du don",
+                  note: "Choisissez un montant qui vous convient.",
+                },
+                material: {
+                  label: "Quels biens souhaitez-vous donner ?",
+                  placeholder: "ex : vêtements, nourriture, équipement, fournitures",
+                  note: "Nous vous contacterons par email pour coordonner.",
+                },
+                cardSection: {
+                  title: "Paiement par carte",
+                  subtitle:
+                    "UI de démonstration. À connecter à un prestataire réel (Stripe/Netopia/etc.).",
+                  note: "Ne traitez pas de données carte brutes sans prestataire certifié et backend sécurisé.",
+                },
+                card: {
+                  name: "Nom sur la carte",
+                  namePlaceholder: "Nom Prénom",
+                  number: "Numéro de carte",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Date d’expiration",
+                  expPlaceholder: "MM/AA",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Payer par carte",
+                successPaymentMock:
+                  "Flux de paiement démo : intégrez un prestataire réel pour finaliser.",
+              },
+            },
+          },
           header: {
             title: "Association de Médiation Communautaire",
             subtitle: "Roms Européens",
@@ -2857,6 +3513,124 @@ i18n
       // 🇮🇹 ITALIAN
       it: {
         translation: {
+          donor: {
+            hero: {
+              kicker: "Diventa Donatore",
+              title: "Sostieni la Comunità",
+              subtitle:
+                "Scegli come aiutare. Ogni contributo porta chiarezza, supporto e impatto.",
+            },
+            types: {
+              time: "Dona TEMPO",
+              skills: "Dona COMPETENZE",
+              financial: "Dona risorse FINANZIARIE",
+              material: "Dona risorse MATERIALI",
+            },
+            typePicker: {
+              label: "Seleziona il tipo di donatore",
+              helper:
+                "Hai selezionato: {{type}}. Il modulo si adatta automaticamente.",
+            },
+            categories: {
+              title: "9.1 – Categorie di donatori",
+              subtitle:
+                "Scegli il tipo di aiuto che si adatta alle tue possibilità.",
+              items: {
+                time: {
+                  title: "Dona tempo",
+                  body: "Volontariato per attività, eventi, logistica o supporto alla comunità.",
+                },
+                skills: {
+                  title: "Dona competenze",
+                  body: "Offri competenze professionali (legale, tech, comunicazione, formazione, mentoring).",
+                },
+                financial: {
+                  title: "Dona risorse finanziarie",
+                  body: "Sostieni i progetti con donazione via carta. Riceverai i diritti via email.",
+                },
+                material: {
+                  title: "Dona risorse materiali",
+                  body: "Dona beni/materiali. Coordiniamo ritiro e destinazione dell’aiuto.",
+                },
+              },
+            },
+            rights: {
+              title: "9.2 – Diritti del DONATORE",
+              subtitle:
+                "Come donatore, ottieni diritti e strumenti di trasparenza.",
+              items: {
+                r1: "Diritto di accesso a report e informazioni",
+                r2: "Diritto di indirizzare l’aiuto",
+                r3: "Diritto di accedere alle strutture locali decisionali",
+                r4: "Diritto di richiedere supporto specializzato",
+              },
+              emailNote: {
+                title: "Invio via email",
+                body: "Tutti i donatori devono fornire un’email per ricevere diritti e aggiornamenti.",
+              },
+            },
+            form: {
+              title: "Modulo donatore",
+              subtitle:
+                "Inserisci i dati e invia il modulo in base al tipo di donazione.",
+              common: {
+                fullName: { label: "Nome completo", placeholder: "Il tuo nome" },
+                email: {
+                  label: "Email",
+                  placeholder: "nome@email.com",
+                  note: "Obbligatoria per ricevere i diritti del donatore via email.",
+                },
+                phone: { label: "Telefono (opzionale)", placeholder: "+39 ..." },
+                successMessage: "Grazie! Abbiamo ricevuto il tuo messaggio.",
+              },
+              messageForm: {
+                info: "Per {{type}}, invia un messaggio e i contatti. Risponderemo via email.",
+                message: {
+                  label: "Messaggio",
+                  placeholder: "Dicci come puoi aiutare e la tua disponibilità.",
+                },
+                submit: "Invia messaggio",
+              },
+              payment: {
+                info: "Per {{type}}, inserisci email e dettagli di pagamento. Riceverai i diritti via email.",
+                progress: {
+                  label: "Progresso donazioni",
+                  value: "Donato finora: {{donated}} / Obiettivo: {{goal}}",
+                  percent: "{{percent}}%",
+                  note: "Questo progresso può essere collegato a dati live dal backend.",
+                },
+                amount: {
+                  label: "Importo della donazione",
+                  note: "Scegli un importo con cui ti senti a tuo agio.",
+                },
+                material: {
+                  label: "Che materiali vuoi donare?",
+                  placeholder: "es: vestiti, cibo, attrezzature, cancelleria",
+                  note: "Ti contatteremo via email per coordinare i dettagli.",
+                },
+                cardSection: {
+                  title: "Pagamento con carta",
+                  subtitle:
+                    "UI dimostrativa. Collegala a un provider reale (Stripe/Netopia/etc.).",
+                  note: "Non elaborare dati carta grezzi senza provider certificato e backend sicuro.",
+                },
+                card: {
+                  name: "Nome sulla carta",
+                  namePlaceholder: "Nome Cognome",
+                  number: "Numero carta",
+                  numberPlaceholder: "1234 5678 9012 3456",
+                  exp: "Scadenza",
+                  expPlaceholder: "MM/AA",
+                  cvc: "CVC",
+                  cvcPlaceholder: "123",
+                },
+                submit: "Paga con carta",
+                successPaymentMock:
+                  "Flusso pagamento dimostrativo: integra un provider reale per completare.",
+              },
+            },
+          },
+
           header: {
             title: "Associazione di Mediazione Comunitaria",
             subtitle: "Rom Europei",

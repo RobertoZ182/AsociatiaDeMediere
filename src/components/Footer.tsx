@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-4">
               <div className="relative shrink-0">
                 <img
-                  src="/WhatsApp Image 2025-09-13 at 23.18.21_b9f8716d.jpg"
+                  src="/WhatsApp Image 2025-12-08 at 21.47.38_0f240e2f.jpg"
                   alt={t("header.logoAlt")}
                   className="h-14 w-14 rounded-full bg-black object-contain sm:h-16 sm:w-16
                              border border-amber-300/35 shadow-lg shadow-black/50"

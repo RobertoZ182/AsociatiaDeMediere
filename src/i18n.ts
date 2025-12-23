@@ -19,6 +19,76 @@ i18n
       // 🌿 ROMANI (Romani Chib)
       rom: {
         translation: {
+          support: {
+            hero: {
+              kicker: "Programura e suportoske",
+              title: "Programura e suportoske le asociațiaqe",
+              subtitle:
+                "Praktikano ajutor, verifikime informacii thaj lidhimos e manușenca thaj organizaciinca ande tiri zona.",
+              ctaPrograms: "Dikh programura",
+              ctaGallery: "Dikh aktivitatea",
+            },
+            aside: {
+              title: "Sar te ajutisaras",
+              body:
+                "Del tuđe udrujimos thaj sigo lidhimos le lokalne resursenca: autoritetura, specialiști, komuniteta thaj ONG-uri.",
+              b1: "Udrujimos pa țara / zona / regiunea",
+              b2: "Utilo kontakte thaj specializime suportos",
+              b3: "Lidhimos le realne resursenca ande teren",
+              noteTitle: "Important",
+              noteBody:
+                "Rekomandisaras te bičhal tuji lokacia (țara/gav) kaj te direkționaras o suport sar mai exact.",
+            },
+            programs: {
+              title: "Programura e suportoske",
+              subtitle:
+                "Mai jos si e maj but direcții e suportoske. Șaj te udrujisaras tuja situația.",
+              p71: {
+                title: " Specializime asistența pa țara / zona / regiunea",
+                body:
+                  "Identifikisaras o potrivimo suport pa lokacia: instituții, servicia, proceduri thaj solucii aplicabile ando tiri areal.",
+              },
+              p72: {
+                title: " Date e kontaktoske: autoritetura lokalne thaj specialiști",
+                body:
+                  "Delas (vaj udrujisaras) relevantne kontakte: autoritetura, mediatorura, socialne servicia, avokați, psihologi, konsilieri.",
+              },
+              p73: {
+                title: " Kher thaj suport pa avera roma ande zona / regiunea",
+                body:
+                  "Facilitisaras o lidhimos le komunitarne rețelea e suportoske pa temporaro kher thaj integracia.",
+              },
+              p74: {
+                title: " Buti sigo, sezonala vaj permanentă",
+                body:
+                  "Ajutisaras te arakh tuje potrivime oportunități e butiqe: urgenca, sezonala vaj stabilo angajimos.",
+              },
+              p75: {
+                title: " ONG-uri thaj voluntari ande interesoski thaj beșimoski zona",
+                body:
+                  "Lidhisaras le beneficiaros le relevantne ONG-enca thaj voluntarenca pa praktikano, juridiko, socialo vaj logistiko suport.",
+              },
+            },
+            cta: {
+              title: "Trubuj tu akana suport?",
+              body:
+                "Bićhal amen mesaj e țara/gavenca thaj tuja situația, thaj amari echipa ka del tuje konkretne pașura.",
+              button: "Kontaktisar amen",
+            },
+            gallery: {
+              title: "Galeria – aktivități thaj întâlniri",
+              subtitle: "Poze andar întâlniri, informaciake sesiuni thaj komunitarne konsultacii.",
+              caption: "Aktivitate ande teren",
+              note: "Șaj te navigisar tu e săgețenca vaj le tastea stânga/dreapta kana o carusel si selectimo.",
+              photoAlt: "Fotografia andar aktivitatea le asociațiaqe",
+              ariaLabel: "Carusel le fotografianca andar aktivitatea le asociațiaqe",
+              prev: "Precedenta imagine",
+              next: "Următoarea imagine",
+              goTo: "Ja ande imaginea {{index}}",
+              counter: "Imaginea {{current}} andar {{total}}",
+            },
+          },
+
           donor: {
             hero: {
               kicker: "Aven Donatori",
@@ -726,27 +796,27 @@ i18n
               subtitle:
                 "Mai jos sunt principalele direcții de sprijin. Te putem orienta în funcție de situația ta.",
               p71: {
-                title: "7.1 Asistență specializată în funcție de țară / zonă / regiune",
+                title: " Asistență specializată în funcție de țară / zonă / regiune",
                 body:
                   "Identificăm sprijinul potrivit în funcție de locație: instituții, servicii, proceduri și soluții aplicabile în arealul tău.",
               },
               p72: {
-                title: "7.2 Date de contact: autorități locale și specialiști",
+                title: " Date de contact: autorități locale și specialiști",
                 body:
                   "Punem la dispoziție (sau te ghidăm către) contacte relevante: autorități, mediatori, servicii sociale, avocați, psihologi, consilieri.",
               },
               p73: {
-                title: "7.3 Cazare și sprijin la alți romi din zonă / regiune",
+                title: " Cazare și sprijin la alți romi din zonă / regiune",
                 body:
                   "Facilităm conectarea la rețele de sprijin comunitar pentru cazare temporară și suport de integrare (în limita posibilităților locale).",
               },
               p74: {
-                title: "7.4 Locuri de muncă imediate, sezoniere sau permanente",
+                title: " Locuri de muncă imediate, sezoniere sau permanente",
                 body:
                   "Te ajutăm să identifici oportunități de muncă potrivite: urgență, sezonier, sau angajare stabilă, în funcție de profil și regiune.",
               },
               p75: {
-                title: "7.5 ONG-uri și voluntari din arealul de interes și locuire",
+                title: " ONG-uri și voluntari din arealul de interes și locuire",
                 body:
                   "Conectăm beneficiarii cu ONG-uri și voluntari relevanți, pentru sprijin practic, juridic, social sau logistic în zona de locuire.",
               },
@@ -1455,6 +1525,76 @@ i18n
       // 🇬🇧 ENGLISH
       en: {
         translation: {
+          support: {
+            hero: {
+              kicker: "Support programs",
+              title: "The association’s support programs",
+              subtitle:
+                "Practical support, verified information, and connection with people and organizations in your area.",
+              ctaPrograms: "View programs",
+              ctaGallery: "View activity",
+            },
+            aside: {
+              title: "How we help you",
+              body:
+                "We provide guidance and fast connection to local resources: authorities, specialists, communities, and NGOs.",
+              b1: "Guidance by country / area / region",
+              b2: "Useful contacts and specialized support",
+              b3: "Connection to real, on-the-ground resources",
+              noteTitle: "Important",
+              noteBody:
+                "We recommend sending us your location (country/city) so we can direct support as accurately as possible.",
+            },
+            programs: {
+              title: "Support programs",
+              subtitle:
+                "Below are the main support directions. We can guide you depending on your situation.",
+              p71: {
+                title: " Specialized assistance by country / area / region",
+                body:
+                  "We identify the right support based on location: institutions, services, procedures, and applicable solutions in your area.",
+              },
+              p72: {
+                title: " Contact details: local authorities and specialists",
+                body:
+                  "We provide (or guide you to) relevant contacts: authorities, mediators, social services, lawyers, psychologists, counselors.",
+              },
+              p73: {
+                title: " Accommodation and support from other Roma in the area / region",
+                body:
+                  "We facilitate connection to community support networks for temporary accommodation and integration support (within local possibilities).",
+              },
+              p74: {
+                title: " Immediate, seasonal, or permanent jobs",
+                body:
+                  "We help you identify suitable job opportunities: emergency, seasonal, or stable employment, depending on your profile and region.",
+              },
+              p75: {
+                title: " NGOs and volunteers in the area of interest and residence",
+                body:
+                  "We connect beneficiaries with relevant NGOs and volunteers for practical, legal, social, or logistical support in their area.",
+              },
+            },
+            cta: {
+              title: "Do you need support now?",
+              body:
+                "Send us a message with your country/city and your situation, and our team will respond with concrete steps.",
+              button: "Contact us",
+            },
+            gallery: {
+              title: "Gallery – activities and meetings",
+              subtitle: "Images from meetings, information sessions, and community consultations.",
+              caption: "Field activity",
+              note: "You can navigate using the arrows or the left/right keys when the carousel is selected.",
+              photoAlt: "Photo from the association’s activity",
+              ariaLabel: "Carousel with photos from the association’s activity",
+              prev: "Previous image",
+              next: "Next image",
+              goTo: "Go to image {{index}}",
+              counter: "Image {{current}} of {{total}}",
+            },
+          },
+
           donor: {
             hero: {
               kicker: "Be a Donor",
@@ -2140,6 +2280,76 @@ i18n
       // 🇩🇪 GERMAN
       de: {
         translation: {
+          support: {
+            hero: {
+              kicker: "Unterstützungsprogramme",
+              title: "Die Unterstützungsprogramme des Vereins",
+              subtitle:
+                "Praktische Hilfe, geprüfte Informationen und Verbindung mit Menschen und Organisationen in Ihrer Region.",
+              ctaPrograms: "Programme ansehen",
+              ctaGallery: "Aktivitäten ansehen",
+            },
+            aside: {
+              title: "Wie wir helfen",
+              body:
+                "Wir bieten Orientierung und schnelle Verbindung zu lokalen Ressourcen: Behörden, Fachleute, Gemeinschaften und NGOs.",
+              b1: "Orientierung nach Land / Gebiet / Region",
+              b2: "Nützliche Kontakte und spezialisierte Unterstützung",
+              b3: "Verbindung zu realen Ressourcen vor Ort",
+              noteTitle: "Wichtig",
+              noteBody:
+                "Wir empfehlen, uns Ihren Standort (Land/Stadt) mitzuteilen, um die Unterstützung möglichst genau auszurichten.",
+            },
+            programs: {
+              title: "Unterstützungsprogramme",
+              subtitle:
+                "Unten finden Sie die wichtigsten Unterstützungsbereiche. Wir orientieren uns an Ihrer Situation.",
+              p71: {
+                title: " Spezialisierte Unterstützung nach Land / Gebiet / Region",
+                body:
+                  "Wir identifizieren passende Unterstützung je nach Standort: Institutionen, Dienstleistungen, Verfahren und anwendbare Lösungen.",
+              },
+              p72: {
+                title: " Kontaktdaten: lokale Behörden und Fachleute",
+                body:
+                  "Wir stellen relevante Kontakte bereit (oder vermitteln): Behörden, Mediatoren, soziale Dienste, Anwälte, Psychologen, Berater.",
+              },
+              p73: {
+                title: " Unterkunft und Unterstützung durch andere Roma in der Region",
+                body:
+                  "Wir erleichtern den Zugang zu gemeinschaftlichen Unterstützungsnetzwerken für vorübergehende Unterkunft und Integration.",
+              },
+              p74: {
+                title: " Sofortige, saisonale oder dauerhafte Arbeitsplätze",
+                body:
+                  "Wir helfen bei der Identifizierung geeigneter Arbeitsmöglichkeiten je nach Profil und Region.",
+              },
+              p75: {
+                title: " NGOs und Freiwillige im Wohn- und Interessensgebiet",
+                body:
+                  "Wir vernetzen Begünstigte mit relevanten NGOs und Freiwilligen für praktische, rechtliche, soziale oder logistische Hilfe.",
+              },
+            },
+            cta: {
+              title: "Benötigen Sie jetzt Unterstützung?",
+              body:
+                "Senden Sie uns eine Nachricht mit Land/Stadt und Ihrer Situation, und unser Team meldet sich mit konkreten Schritten.",
+              button: "Kontaktieren Sie uns",
+            },
+            gallery: {
+              title: "Galerie – Aktivitäten und Treffen",
+              subtitle: "Bilder von Treffen, Informationssitzungen und Gemeinschaftskonsultationen.",
+              caption: "Aktivität vor Ort",
+              note: "Navigation mit Pfeiltasten oder den linken/rechten Tasten, wenn das Karussell aktiv ist.",
+              photoAlt: "Foto aus der Vereinsarbeit",
+              ariaLabel: "Karussell mit Fotos aus der Vereinsarbeit",
+              prev: "Vorheriges Bild",
+              next: "Nächstes Bild",
+              goTo: "Gehe zu Bild {{index}}",
+              counter: "Bild {{current}} von {{total}}",
+            },
+          },
+
           donor: {
             hero: {
               kicker: "Werde Spender:in",
@@ -2826,6 +3036,76 @@ i18n
       // 🇫🇷 FRENCH
       fr: {
         translation: {
+          support: {
+            hero: {
+              kicker: "Programmes de soutien",
+              title: "Les programmes de soutien de l’association",
+              subtitle:
+                "Soutien pratique, informations vérifiées et mise en relation avec des personnes et organisations de votre région.",
+              ctaPrograms: "Voir les programmes",
+              ctaGallery: "Voir les activités",
+            },
+            aside: {
+              title: "Comment nous aidons",
+              body:
+                "Nous offrons une orientation et une mise en relation rapide avec des ressources locales : autorités, spécialistes, communautés et ONG.",
+              b1: "Orientation par pays / zone / région",
+              b2: "Contacts utiles et soutien spécialisé",
+              b3: "Connexion à des ressources réelles sur le terrain",
+              noteTitle: "Important",
+              noteBody:
+                "Nous recommandons de nous transmettre votre localisation (pays/ville) afin de diriger l’aide avec précision.",
+            },
+            programs: {
+              title: "Programmes de soutien",
+              subtitle:
+                "Ci-dessous les principales directions de soutien. Nous vous orientons selon votre situation.",
+              p71: {
+                title: " Assistance spécialisée selon le pays / la zone / la région",
+                body:
+                  "Nous identifions le soutien approprié selon la localisation : institutions, services, procédures et solutions applicables.",
+              },
+              p72: {
+                title: " Coordonnées : autorités locales et spécialistes",
+                body:
+                  "Nous mettons à disposition (ou orientons vers) des contacts pertinents : autorités, médiateurs, services sociaux, avocats, psychologues.",
+              },
+              p73: {
+                title: " Hébergement et soutien auprès d’autres Roms de la région",
+                body:
+                  "Nous facilitons la connexion à des réseaux de soutien communautaire pour l’hébergement temporaire et l’intégration.",
+              },
+              p74: {
+                title: " Emplois immédiats, saisonniers ou permanents",
+                body:
+                  "Nous aidons à identifier des opportunités d’emploi adaptées selon le profil et la région.",
+              },
+              p75: {
+                title: " ONG et bénévoles dans la zone d’intérêt et de résidence",
+                body:
+                  "Nous connectons les bénéficiaires avec des ONG et bénévoles pertinents pour un soutien pratique, juridique, social ou logistique.",
+              },
+            },
+            cta: {
+              title: "Besoin d’aide immédiatement ?",
+              body:
+                "Envoyez-nous un message avec votre pays/ville et votre situation, et notre équipe vous répondra avec des étapes concrètes.",
+              button: "Nous contacter",
+            },
+            gallery: {
+              title: "Galerie – activités et rencontres",
+              subtitle: "Images de rencontres, séances d’information et consultations communautaires.",
+              caption: "Activité sur le terrain",
+              note: "Navigation possible avec les flèches ou les touches gauche/droite lorsque le carrousel est sélectionné.",
+              photoAlt: "Photo de l’activité de l’association",
+              ariaLabel: "Carrousel de photos de l’activité de l’association",
+              prev: "Image précédente",
+              next: "Image suivante",
+              goTo: "Aller à l’image {{index}}",
+              counter: "Image {{current}} sur {{total}}",
+            },
+          },
+
           donor: {
             hero: {
               kicker: "Devenir Donateur",
@@ -3513,6 +3793,77 @@ i18n
       // 🇮🇹 ITALIAN
       it: {
         translation: {
+          
+          support: {
+            hero: {
+              kicker: "Programmi di supporto",
+              title: "I programmi di supporto dell’associazione",
+              subtitle:
+                "Supporto pratico, informazioni verificate e collegamento con persone e organizzazioni della tua zona.",
+              ctaPrograms: "Vedi i programmi",
+              ctaGallery: "Vedi le attività",
+            },
+            aside: {
+              title: "Come ti aiutiamo",
+              body:
+                "Offriamo orientamento e collegamento rapido con risorse locali: autorità, specialisti, comunità e ONG.",
+              b1: "Orientamento per paese / area / regione",
+              b2: "Contatti utili e supporto specializzato",
+              b3: "Connessione a risorse reali sul territorio",
+              noteTitle: "Importante",
+              noteBody:
+                "Ti consigliamo di inviarci la tua posizione (paese/città) per indirizzare il supporto nel modo più preciso possibile.",
+            },
+            programs: {
+              title: "Programmi di supporto",
+              subtitle:
+                "Di seguito le principali aree di supporto. Possiamo orientarti in base alla tua situazione.",
+              p71: {
+                title: " Assistenza specializzata in base al paese / area / regione",
+                body:
+                  "Identifichiamo il supporto adeguato in base alla località: istituzioni, servizi, procedure e soluzioni applicabili.",
+              },
+              p72: {
+                title: " Contatti: autorità locali e specialisti",
+                body:
+                  "Forniamo (o indirizziamo verso) contatti rilevanti: autorità, mediatori, servizi sociali, avvocati, psicologi, consulenti.",
+              },
+              p73: {
+                title: " Alloggio e supporto da altri Rom nella zona / regione",
+                body:
+                  "Facilitiamo il collegamento con reti di supporto comunitarie per alloggi temporanei e integrazione.",
+              },
+              p74: {
+                title: " Lavori immediati, stagionali o permanenti",
+                body:
+                  "Ti aiutiamo a identificare opportunità di lavoro adatte: emergenza, stagionale o stabile.",
+              },
+              p75: {
+                title: " ONG e volontari nell’area di interesse e residenza",
+                body:
+                  "Mettiamo in contatto i beneficiari con ONG e volontari per supporto pratico, legale, sociale o logistico.",
+              },
+            },
+            cta: {
+              title: "Hai bisogno di supporto ora?",
+              body:
+                "Inviaci un messaggio con paese/città e la tua situazione, e il nostro team risponderà con passi concreti.",
+              button: "Contattaci",
+            },
+            gallery: {
+              title: "Galleria – attività e incontri",
+              subtitle: "Immagini da incontri, sessioni informative e consultazioni comunitarie.",
+              caption: "Attività sul campo",
+              note: "Puoi navigare con le frecce o con i tasti sinistra/destra quando il carosello è selezionato.",
+              photoAlt: "Foto dall’attività dell’associazione",
+              ariaLabel: "Carosello di foto dell’attività dell’associazione",
+              prev: "Immagine precedente",
+              next: "Immagine successiva",
+              goTo: "Vai all’immagine {{index}}",
+              counter: "Immagine {{current}} di {{total}}",
+            },
+          },
+
           donor: {
             hero: {
               kicker: "Diventa Donatore",

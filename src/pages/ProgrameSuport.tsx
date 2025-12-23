@@ -19,11 +19,11 @@ export default function ProgrameSuport() {
   );
 
   const programs = [
-    { code: "7.1", titleKey: "support.programs.p71.title", bodyKey: "support.programs.p71.body", icon: "🧭" },
-    { code: "7.2", titleKey: "support.programs.p72.title", bodyKey: "support.programs.p72.body", icon: "📞" },
-    { code: "7.3", titleKey: "support.programs.p73.title", bodyKey: "support.programs.p73.body", icon: "🏠" },
-    { code: "7.4", titleKey: "support.programs.p74.title", bodyKey: "support.programs.p74.body", icon: "🧰" },
-    { code: "7.5", titleKey: "support.programs.p75.title", bodyKey: "support.programs.p75.body", icon: "🤝" },
+    { titleKey: "support.programs.p71.title", bodyKey: "support.programs.p71.body", icon: "🧭" },
+    { titleKey: "support.programs.p72.title", bodyKey: "support.programs.p72.body", icon: "📞" },
+    { titleKey: "support.programs.p73.title", bodyKey: "support.programs.p73.body", icon: "🏠" },
+    { titleKey: "support.programs.p74.title", bodyKey: "support.programs.p74.body", icon: "🧰" },
+    { titleKey: "support.programs.p75.title", bodyKey: "support.programs.p75.body", icon: "🤝" },
   ] as const;
 
   const [active, setActive] = useState(0);
@@ -130,7 +130,7 @@ export default function ProgrameSuport() {
         </div>
       </section>
 
-      {/* Programs (7.1 - 7.5) */}
+      
       <section id="programs" className="mx-auto max-w-6xl px-4 py-10 md:py-12">
         <div className="flex flex-col gap-2">
           <h2 className="text-2xl font-serif font-semibold tracking-wide text-amber-50">
@@ -144,7 +144,7 @@ export default function ProgrameSuport() {
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {programs.map((p) => (
             <div
-              key={p.code}
+              key={p.titleKey}
               className="rounded-3xl border border-amber-400/25 bg-black/40 backdrop-blur-[2px] p-6 shadow-xl shadow-black/40 hover:border-amber-300/45 transition-colors duration-300"
             >
               <div className="flex items-start gap-4">
@@ -154,9 +154,7 @@ export default function ProgrameSuport() {
 
                 <div className="flex-1">
                   <div className="flex items-center gap-3">
-                    <span className="text-xs font-semibold text-amber-200/80">
-                      {p.code}
-                    </span>
+                    
                     <h3 className="text-base font-semibold text-amber-50">
                       {t(p.titleKey)}
                     </h3>
@@ -184,7 +182,7 @@ export default function ProgrameSuport() {
             </div>
 
             <a
-              href="#contact"
+              href="mailto:medierecomunitara2025@gmail.com"
               className="group relative inline-flex items-center justify-center rounded-full px-8 py-3 text-sm font-semibold font-serif tracking-wide
                          bg-gradient-to-r from-yellow-600 via-amber-500 to-yellow-600 text-black
                          shadow-lg shadow-black/40 hover:shadow-2xl hover:shadow-black/60
